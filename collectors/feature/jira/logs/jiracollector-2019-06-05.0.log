@@ -1,0 +1,716 @@
+2019-06-05 16:37:08,261 INFO  o.s.t.c.s.DefaultTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2019-06-05 16:37:08,381 INFO  o.s.t.c.s.DefaultTestContextBootstrapper - Could not instantiate TestExecutionListener [org.springframework.test.context.web.ServletTestExecutionListener]. Specify custom listener classes or make the default listener classes (and their required dependencies) available. Offending class: [javax/servlet/ServletContext]
+2019-06-05 16:37:08,418 INFO  o.s.t.c.s.DefaultTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@15c4af7a, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@6cbd0674, org.springframework.test.context.support.DirtiesContextTestExecutionListener@55d58825, org.springframework.test.context.transaction.TransactionalTestExecutionListener@19a64eae, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@29a98d9f]
+2019-06-05 16:37:08,607 INFO  o.s.t.c.s.DefaultTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2019-06-05 16:37:08,612 INFO  o.s.t.c.s.DefaultTestContextBootstrapper - Could not instantiate TestExecutionListener [org.springframework.test.context.web.ServletTestExecutionListener]. Specify custom listener classes or make the default listener classes (and their required dependencies) available. Offending class: [javax/servlet/ServletContext]
+2019-06-05 16:37:08,614 INFO  o.s.t.c.s.DefaultTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@7f37b6d9, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@71e35c4, org.springframework.test.context.support.DirtiesContextTestExecutionListener@22a10ac6, org.springframework.test.context.transaction.TransactionalTestExecutionListener@12fe1f28, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@503df2d0]
+2019-06-05 16:37:08,744 INFO  o.s.t.c.s.DefaultTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2019-06-05 16:37:08,751 INFO  o.s.t.c.s.DefaultTestContextBootstrapper - Could not instantiate TestExecutionListener [org.springframework.test.context.web.ServletTestExecutionListener]. Specify custom listener classes or make the default listener classes (and their required dependencies) available. Offending class: [javax/servlet/ServletContext]
+2019-06-05 16:37:08,754 INFO  o.s.t.c.s.DefaultTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@76b47204, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@4d6ccc97, org.springframework.test.context.support.DirtiesContextTestExecutionListener@6a12c7a8, org.springframework.test.context.transaction.TransactionalTestExecutionListener@161aa04a, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@436bd4df]
+2019-06-05 16:37:10,184 INFO  o.s.c.s.GenericApplicationContext - Refreshing org.springframework.context.support.GenericApplicationContext@9b3be1c: startup date [Wed Jun 05 16:37:10 EDT 2019]; root of context hierarchy
+2019-06-05 16:37:12,315 INFO  o.s.b.f.s.DefaultListableBeanFactory - Overriding bean definition for bean 'featureSettings' with a different definition: replacing [Generic bean: class [com.capitalone.dashboard.collector.FeatureSettings]; scope=singleton; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [C:\Users\abijja2\Desktop\git_workspace\Hygieia\collectors\feature\jira\target\classes\com\capitalone\dashboard\collector\FeatureSettings.class]] with [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=testConfig; factoryMethodName=featureSettings; initMethodName=null; destroyMethodName=(inferred); defined in com.capitalone.dashboard.config.TestConfig]
+2019-06-05 16:37:14,667 INFO  o.s.b.f.a.AutowiredAnnotationBeanPostProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2019-06-05 16:37:28,954 INFO  c.c.d.collector.DefaultJiraClient - JIRA Collector collected 4 boards
+2019-06-05 16:37:29,036 INFO  o.s.c.s.GenericApplicationContext - Closing org.springframework.context.support.GenericApplicationContext@9b3be1c: startup date [Wed Jun 05 16:37:10 EDT 2019]; root of context hierarchy
+2019-06-05 16:37:29,115 INFO  o.s.t.c.s.DefaultTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2019-06-05 16:37:29,153 INFO  o.s.t.c.s.DefaultTestContextBootstrapper - Could not instantiate TestExecutionListener [org.springframework.test.context.web.ServletTestExecutionListener]. Specify custom listener classes or make the default listener classes (and their required dependencies) available. Offending class: [javax/servlet/ServletContext]
+2019-06-05 16:37:29,154 INFO  o.s.t.c.s.DefaultTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@4a1ff607, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@195cc8bb, org.springframework.test.context.support.DirtiesContextTestExecutionListener@7b00f659, org.springframework.test.context.transaction.TransactionalTestExecutionListener@1d8ec941, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@2814bb39]
+2019-06-05 16:37:29,222 INFO  o.s.c.s.GenericApplicationContext - Refreshing org.springframework.context.support.GenericApplicationContext@348792e3: startup date [Wed Jun 05 16:37:29 EDT 2019]; root of context hierarchy
+2019-06-05 16:37:30,422 INFO  o.s.b.f.s.DefaultListableBeanFactory - Overriding bean definition for bean 'featureSettings' with a different definition: replacing [Generic bean: class [com.capitalone.dashboard.collector.FeatureSettings]; scope=singleton; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [C:\Users\abijja2\Desktop\git_workspace\Hygieia\collectors\feature\jira\target\classes\com\capitalone\dashboard\collector\FeatureSettings.class]] with [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=testConfig; factoryMethodName=featureSettings; initMethodName=null; destroyMethodName=(inferred); defined in com.capitalone.dashboard.config.TestConfig]
+2019-06-05 16:37:32,293 INFO  o.s.b.f.a.AutowiredAnnotationBeanPostProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2019-06-05 16:37:36,531 INFO  com.github.fakemongo.FongoConnection - updateCommand() namespace:test-db.collectors updates:[com.mongodb.bulk.UpdateRequest@5b0fce55]
+2019-06-05 16:37:36,732 INFO  com.github.fakemongo.FongoConnection - release()
+2019-06-05 16:37:36,753 INFO  com.github.fakemongo.FongoConnection - updateCommand() namespace:test-db.team updates:[com.mongodb.bulk.UpdateRequest@5a4e993d]
+2019-06-05 16:37:36,776 INFO  com.github.fakemongo.FongoConnection - release()
+2019-06-05 16:37:36,783 INFO  com.github.fakemongo.FongoConnection - updateCommand() namespace:test-db.team updates:[com.mongodb.bulk.UpdateRequest@3de49870]
+2019-06-05 16:37:36,790 INFO  com.github.fakemongo.FongoConnection - release()
+2019-06-05 16:37:36,820 INFO  com.github.fakemongo.FongoConnection - updateCommand() namespace:test-db.scope updates:[com.mongodb.bulk.UpdateRequest@542e3b11]
+2019-06-05 16:37:36,835 INFO  com.github.fakemongo.FongoConnection - release()
+2019-06-05 16:37:37,050 INFO  c.c.d.collector.FeatureCollectorTask - Adding :137001-Project 3 updated
+2019-06-05 16:37:37,060 INFO  com.github.fakemongo.FongoConnection - updateCommand() namespace:test-db.scope updates:[com.mongodb.bulk.UpdateRequest@75e38460]
+2019-06-05 16:37:37,064 INFO  com.github.fakemongo.FongoConnection - release()
+2019-06-05 16:37:37,075 INFO  c.c.d.collector.CollectorTask - Project Data Collected  1        0s
+2019-06-05 16:37:37,291 INFO  com.github.fakemongo.FongoConnection - updateCommand() namespace:test-db.collectors updates:[com.mongodb.bulk.UpdateRequest@4695ed83]
+2019-06-05 16:37:37,299 INFO  com.github.fakemongo.FongoConnection - release()
+2019-06-05 16:37:37,310 INFO  com.github.fakemongo.FongoConnection - updateCommand() namespace:test-db.team updates:[com.mongodb.bulk.UpdateRequest@1ff0dbcc]
+2019-06-05 16:37:37,316 INFO  com.github.fakemongo.FongoConnection - release()
+2019-06-05 16:37:37,318 INFO  com.github.fakemongo.FongoConnection - updateCommand() namespace:test-db.team updates:[com.mongodb.bulk.UpdateRequest@1b7886ee]
+2019-06-05 16:37:37,322 INFO  com.github.fakemongo.FongoConnection - release()
+2019-06-05 16:37:37,331 INFO  com.github.fakemongo.FongoConnection - updateCommand() namespace:test-db.scope updates:[com.mongodb.bulk.UpdateRequest@75f0a654]
+2019-06-05 16:37:37,337 INFO  com.github.fakemongo.FongoConnection - release()
+2019-06-05 16:37:37,399 INFO  c.c.d.collector.FeatureCollectorTask - Adding :11500-Project 2
+2019-06-05 16:37:37,410 INFO  c.c.d.collector.FeatureCollectorTask - Adding :13700-Project 1
+2019-06-05 16:37:37,415 INFO  c.c.d.collector.CollectorTask - Project Data Collected  2        0s
+2019-06-05 16:37:37,431 INFO  c.c.d.collector.FeatureCollectorTask - Deleting :137001-Project 3
+2019-06-05 16:37:37,448 INFO  c.c.d.collector.CollectorTask - Project Data Collected. Deleted  1        0s
+2019-06-05 16:37:37,521 INFO  com.github.fakemongo.FongoConnection - updateCommand() namespace:test-db.collectors updates:[com.mongodb.bulk.UpdateRequest@33db8d3a]
+2019-06-05 16:37:37,539 INFO  com.github.fakemongo.FongoConnection - release()
+2019-06-05 16:37:37,558 INFO  com.github.fakemongo.FongoConnection - updateCommand() namespace:test-db.team updates:[com.mongodb.bulk.UpdateRequest@703bd69c]
+2019-06-05 16:37:37,567 INFO  com.github.fakemongo.FongoConnection - release()
+2019-06-05 16:37:37,568 INFO  com.github.fakemongo.FongoConnection - updateCommand() namespace:test-db.team updates:[com.mongodb.bulk.UpdateRequest@a3289a3]
+2019-06-05 16:37:37,575 INFO  com.github.fakemongo.FongoConnection - release()
+2019-06-05 16:37:37,594 INFO  com.github.fakemongo.FongoConnection - updateCommand() namespace:test-db.scope updates:[com.mongodb.bulk.UpdateRequest@4a687cba]
+2019-06-05 16:37:37,609 INFO  com.github.fakemongo.FongoConnection - release()
+2019-06-05 16:37:37,670 INFO  c.c.d.collector.DefaultJiraClient - JIRA Collector collected 4 boards
+2019-06-05 16:37:37,681 INFO  c.c.d.collector.FeatureCollectorTask - Adding Board:8-TtestBoard scrum 1
+2019-06-05 16:37:37,692 INFO  c.c.d.collector.FeatureCollectorTask - Adding Board:16-TestBoard scrum  2
+2019-06-05 16:37:37,699 INFO  c.c.d.collector.FeatureCollectorTask - Adding Board:17-TestBoard kanban 1
+2019-06-05 16:37:37,702 INFO  c.c.d.collector.FeatureCollectorTask - Adding Board:125-TestBoard kanban 2
+2019-06-05 16:37:37,710 INFO  c.c.d.collector.CollectorTask - Board Data Collected. Added  4        0s
+2019-06-05 16:37:37,758 INFO  c.c.d.collector.FeatureCollectorTask - Deleting Board:998-TestBoard kanban 1
+2019-06-05 16:37:37,760 INFO  c.c.d.collector.FeatureCollectorTask - Deleting Board:999-TestBoard kanban 3
+2019-06-05 16:37:37,781 INFO  c.c.d.collector.CollectorTask - Board Data Collected. Deleted  2        0s
+2019-06-05 16:37:37,814 INFO  com.github.fakemongo.FongoConnection - updateCommand() namespace:test-db.collectors updates:[com.mongodb.bulk.UpdateRequest@4e7100a4]
+2019-06-05 16:37:37,845 INFO  com.github.fakemongo.FongoConnection - release()
+2019-06-05 16:37:37,854 INFO  com.github.fakemongo.FongoConnection - updateCommand() namespace:test-db.team updates:[com.mongodb.bulk.UpdateRequest@2efed8cc]
+2019-06-05 16:37:37,867 INFO  com.github.fakemongo.FongoConnection - release()
+2019-06-05 16:37:37,871 INFO  com.github.fakemongo.FongoConnection - updateCommand() namespace:test-db.team updates:[com.mongodb.bulk.UpdateRequest@3162d486]
+2019-06-05 16:37:37,897 INFO  com.github.fakemongo.FongoConnection - release()
+2019-06-05 16:37:37,907 INFO  com.github.fakemongo.FongoConnection - updateCommand() namespace:test-db.scope updates:[com.mongodb.bulk.UpdateRequest@7296661b]
+2019-06-05 16:37:37,916 INFO  com.github.fakemongo.FongoConnection - release()
+2019-06-05 16:37:38,024 INFO  c.c.d.collector.FeatureCollectorTask - Collecting 1 of 6 boards.
+2019-06-05 16:37:38,038 INFO  c.c.d.collector.CollectorTask - Story Data Collected since 1969-12-31T19:00 0        0s
+2019-06-05 16:37:38,043 INFO  com.github.fakemongo.FongoConnection - updateCommand() namespace:test-db.team updates:[com.mongodb.bulk.UpdateRequest@1a6e20e2]
+2019-06-05 16:37:38,046 INFO  com.github.fakemongo.FongoConnection - release()
+2019-06-05 16:37:38,081 INFO  c.c.d.collector.FeatureCollectorTask - Collecting 2 of 6 boards.
+2019-06-05 16:37:38,085 INFO  c.c.d.collector.CollectorTask - Story Data Collected since 1969-12-31T19:00 0        0s
+2019-06-05 16:37:38,088 INFO  com.github.fakemongo.FongoConnection - updateCommand() namespace:test-db.team updates:[com.mongodb.bulk.UpdateRequest@7c0ae213]
+2019-06-05 16:37:38,100 INFO  com.github.fakemongo.FongoConnection - release()
+2019-06-05 16:37:38,101 INFO  c.c.d.collector.FeatureCollectorTask - Collecting 3 of 6 boards.
+2019-06-05 16:37:38,105 INFO  c.c.d.collector.CollectorTask - Story Data Collected since 1969-12-31T19:00 0        0s
+2019-06-05 16:37:38,116 INFO  com.github.fakemongo.FongoConnection - updateCommand() namespace:test-db.team updates:[com.mongodb.bulk.UpdateRequest@4ca8b1a4]
+2019-06-05 16:37:38,143 INFO  com.github.fakemongo.FongoConnection - release()
+2019-06-05 16:37:38,147 INFO  c.c.d.collector.FeatureCollectorTask - Collecting 4 of 6 boards.
+2019-06-05 16:37:38,151 INFO  c.c.d.collector.CollectorTask - Story Data Collected since 1969-12-31T19:00 0        0s
+2019-06-05 16:37:38,154 INFO  com.github.fakemongo.FongoConnection - updateCommand() namespace:test-db.team updates:[com.mongodb.bulk.UpdateRequest@3f9c5ea9]
+2019-06-05 16:37:38,163 INFO  com.github.fakemongo.FongoConnection - release()
+2019-06-05 16:37:38,168 INFO  c.c.d.collector.FeatureCollectorTask - Collecting 5 of 6 boards.
+2019-06-05 16:37:38,170 INFO  c.c.d.collector.CollectorTask - Story Data Collected since 1969-12-31T19:00 0        0s
+2019-06-05 16:37:38,177 INFO  com.github.fakemongo.FongoConnection - updateCommand() namespace:test-db.team updates:[com.mongodb.bulk.UpdateRequest@7faf6a72]
+2019-06-05 16:37:38,183 INFO  com.github.fakemongo.FongoConnection - release()
+2019-06-05 16:37:38,184 INFO  c.c.d.collector.FeatureCollectorTask - Collecting 6 of 6 boards.
+2019-06-05 16:37:38,231 INFO  c.c.d.collector.CollectorTask - Story Data Collected since 1969-12-31T19:00 1        0s
+2019-06-05 16:37:38,233 INFO  com.github.fakemongo.FongoConnection - updateCommand() namespace:test-db.team updates:[com.mongodb.bulk.UpdateRequest@f096f73]
+2019-06-05 16:37:38,273 INFO  com.github.fakemongo.FongoConnection - release()
+2019-06-05 16:37:38,468 INFO  com.github.fakemongo.FongoConnection - updateCommand() namespace:test-db.collectors updates:[com.mongodb.bulk.UpdateRequest@3186d842]
+2019-06-05 16:37:38,472 INFO  com.github.fakemongo.FongoConnection - release()
+2019-06-05 16:37:38,481 INFO  com.github.fakemongo.FongoConnection - updateCommand() namespace:test-db.team updates:[com.mongodb.bulk.UpdateRequest@31b7d7d0]
+2019-06-05 16:37:38,484 INFO  com.github.fakemongo.FongoConnection - release()
+2019-06-05 16:37:38,486 INFO  com.github.fakemongo.FongoConnection - updateCommand() namespace:test-db.team updates:[com.mongodb.bulk.UpdateRequest@6bcefcef]
+2019-06-05 16:37:38,488 INFO  com.github.fakemongo.FongoConnection - release()
+2019-06-05 16:37:38,501 INFO  com.github.fakemongo.FongoConnection - updateCommand() namespace:test-db.scope updates:[com.mongodb.bulk.UpdateRequest@1c120935]
+2019-06-05 16:37:38,503 INFO  com.github.fakemongo.FongoConnection - release()
+2019-06-05 16:37:38,533 INFO  c.c.d.collector.DefaultJiraClient - JIRA Collector collected 1 boards
+2019-06-05 16:37:38,534 INFO  c.c.d.collector.FeatureCollectorTask - Adding Board:998-TestBoard kanban Existing 1
+2019-06-05 16:37:38,550 INFO  com.github.fakemongo.FongoConnection - updateCommand() namespace:test-db.team updates:[com.mongodb.bulk.UpdateRequest@1b51963d]
+2019-06-05 16:37:38,583 INFO  com.github.fakemongo.FongoConnection - release()
+2019-06-05 16:37:38,584 INFO  c.c.d.collector.CollectorTask - Board Data Collected. Added  1        0s
+2019-06-05 16:37:38,649 INFO  c.c.d.collector.FeatureCollectorTask - Deleting Board:125-TestBoard kanban 2
+2019-06-05 16:37:38,650 INFO  c.c.d.collector.FeatureCollectorTask - Deleting Board:16-TestBoard scrum  2
+2019-06-05 16:37:38,651 INFO  c.c.d.collector.FeatureCollectorTask - Deleting Board:17-TestBoard kanban 1
+2019-06-05 16:37:38,663 INFO  c.c.d.collector.FeatureCollectorTask - Deleting Board:8-TtestBoard scrum 1
+2019-06-05 16:37:38,669 INFO  c.c.d.collector.FeatureCollectorTask - Deleting Board:999-TestBoard kanban 3
+2019-06-05 16:37:38,685 INFO  c.c.d.collector.CollectorTask - Board Data Collected. Deleted  5        0s
+2019-06-05 16:37:38,748 INFO  com.github.fakemongo.FongoConnection - updateCommand() namespace:test-db.collectors updates:[com.mongodb.bulk.UpdateRequest@4358fa9]
+2019-06-05 16:37:38,828 INFO  com.github.fakemongo.FongoConnection - release()
+2019-06-05 16:37:38,843 INFO  com.github.fakemongo.FongoConnection - updateCommand() namespace:test-db.team updates:[com.mongodb.bulk.UpdateRequest@22b9796e]
+2019-06-05 16:37:38,848 INFO  com.github.fakemongo.FongoConnection - release()
+2019-06-05 16:37:38,852 INFO  com.github.fakemongo.FongoConnection - updateCommand() namespace:test-db.team updates:[com.mongodb.bulk.UpdateRequest@ad9f257]
+2019-06-05 16:37:38,856 INFO  com.github.fakemongo.FongoConnection - release()
+2019-06-05 16:37:38,866 INFO  com.github.fakemongo.FongoConnection - updateCommand() namespace:test-db.scope updates:[com.mongodb.bulk.UpdateRequest@9935b01]
+2019-06-05 16:37:38,869 INFO  com.github.fakemongo.FongoConnection - release()
+2019-06-05 16:37:38,987 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2019-06-05 16:37:38,990 INFO  c.c.d.collector.CollectorTask - https://jira.com/
+2019-06-05 16:37:38,991 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2019-06-05 16:37:38,993 INFO  c.c.d.collector.FeatureCollectorTask - JIRA Collector is set to work in Board mode
+2019-06-05 16:37:38,994 INFO  c.c.d.collector.FeatureCollectorTask - Hours since last run = 3480. Collector is about to refresh Team/Board information
+2019-06-05 16:37:38,998 INFO  c.c.d.collector.DefaultJiraClient - JIRA Collector collected 4 boards
+2019-06-05 16:37:39,002 INFO  c.c.d.collector.FeatureCollectorTask - Adding Board:8-TtestBoard scrum 1
+2019-06-05 16:37:39,007 INFO  c.c.d.collector.FeatureCollectorTask - Adding Board:16-TestBoard scrum  2
+2019-06-05 16:37:39,011 INFO  c.c.d.collector.FeatureCollectorTask - Adding Board:17-TestBoard kanban 1
+2019-06-05 16:37:39,017 INFO  c.c.d.collector.FeatureCollectorTask - Adding Board:125-TestBoard kanban 2
+2019-06-05 16:37:39,024 INFO  c.c.d.collector.CollectorTask - Board Data Collected. Added  4        0s
+2019-06-05 16:37:39,052 INFO  c.c.d.collector.FeatureCollectorTask - Deleting Board:998-TestBoard kanban 1
+2019-06-05 16:37:39,053 INFO  c.c.d.collector.FeatureCollectorTask - Deleting Board:999-TestBoard kanban 3
+2019-06-05 16:37:39,058 INFO  c.c.d.collector.CollectorTask - Board Data Collected. Deleted  2        0s
+2019-06-05 16:37:39,066 INFO  c.c.d.collector.FeatureCollectorTask - Adding :11500-Project 2
+2019-06-05 16:37:39,073 INFO  com.github.fakemongo.FongoConnection - updateCommand() namespace:test-db.scope updates:[com.mongodb.bulk.UpdateRequest@57d2623b]
+2019-06-05 16:37:39,077 INFO  com.github.fakemongo.FongoConnection - release()
+2019-06-05 16:37:39,081 INFO  c.c.d.collector.FeatureCollectorTask - Adding :13700-Project 1
+2019-06-05 16:37:39,087 INFO  com.github.fakemongo.FongoConnection - updateCommand() namespace:test-db.scope updates:[com.mongodb.bulk.UpdateRequest@125c79dc]
+2019-06-05 16:37:39,095 INFO  com.github.fakemongo.FongoConnection - release()
+2019-06-05 16:37:39,097 INFO  c.c.d.collector.CollectorTask - Project Data Collected  2        0s
+2019-06-05 16:37:39,103 INFO  c.c.d.collector.FeatureCollectorTask - Deleting :137001-Project 3
+2019-06-05 16:37:39,114 INFO  c.c.d.collector.CollectorTask - Project Data Collected. Deleted  1        0s
+2019-06-05 16:37:39,142 INFO  c.c.d.collector.FeatureCollectorTask - Refreshing issues for Board ID:8
+2019-06-05 16:37:39,160 INFO  c.c.d.collector.FeatureCollectorTask - Refreshing issues for Board ID:16
+2019-06-05 16:37:39,169 INFO  c.c.d.collector.FeatureCollectorTask - Refreshing issues for Board ID:17
+2019-06-05 16:37:39,182 INFO  c.c.d.collector.FeatureCollectorTask - Refreshing issues for Board ID:125
+2019-06-05 16:37:39,186 INFO  c.c.d.collector.CollectorTask - Board Issues Refreshed           0s
+2019-06-05 16:37:39,342 INFO  com.github.fakemongo.FongoConnection - updateCommand() namespace:test-db.collectors updates:[com.mongodb.bulk.UpdateRequest@27be341b]
+2019-06-05 16:37:39,346 INFO  com.github.fakemongo.FongoConnection - release()
+2019-06-05 16:37:39,347 INFO  c.c.d.collector.FeatureCollectorTask - Collected 4 teams and 2 projects
+2019-06-05 16:37:39,351 INFO  c.c.d.collector.FeatureCollectorTask - Collecting 1 of 4 boards.
+2019-06-05 16:37:39,354 INFO  c.c.d.collector.CollectorTask - Story Data Collected since 1969-12-31T19:00 0        0s
+2019-06-05 16:37:39,358 INFO  com.github.fakemongo.FongoConnection - updateCommand() namespace:test-db.team updates:[com.mongodb.bulk.UpdateRequest@3e7f090b]
+2019-06-05 16:37:39,360 INFO  com.github.fakemongo.FongoConnection - release()
+2019-06-05 16:37:39,361 INFO  c.c.d.collector.FeatureCollectorTask - Collecting 2 of 4 boards.
+2019-06-05 16:37:39,363 INFO  c.c.d.collector.CollectorTask - Story Data Collected since 1969-12-31T19:00 0        0s
+2019-06-05 16:37:39,365 INFO  com.github.fakemongo.FongoConnection - updateCommand() namespace:test-db.team updates:[com.mongodb.bulk.UpdateRequest@145f9b27]
+2019-06-05 16:37:39,374 INFO  com.github.fakemongo.FongoConnection - release()
+2019-06-05 16:37:39,379 INFO  c.c.d.collector.FeatureCollectorTask - Collecting 3 of 4 boards.
+2019-06-05 16:37:39,381 INFO  c.c.d.collector.CollectorTask - Story Data Collected since 1969-12-31T19:00 0        0s
+2019-06-05 16:37:39,383 INFO  com.github.fakemongo.FongoConnection - updateCommand() namespace:test-db.team updates:[com.mongodb.bulk.UpdateRequest@5eff0651]
+2019-06-05 16:37:39,389 INFO  com.github.fakemongo.FongoConnection - release()
+2019-06-05 16:37:39,392 INFO  c.c.d.collector.FeatureCollectorTask - Collecting 4 of 4 boards.
+2019-06-05 16:37:39,394 INFO  c.c.d.collector.CollectorTask - Story Data Collected since 1969-12-31T19:00 0        0s
+2019-06-05 16:37:39,396 INFO  com.github.fakemongo.FongoConnection - updateCommand() namespace:test-db.team updates:[com.mongodb.bulk.UpdateRequest@837ef79]
+2019-06-05 16:37:39,398 INFO  com.github.fakemongo.FongoConnection - release()
+2019-06-05 16:37:39,400 INFO  c.c.d.collector.CollectorTask - Finished                         0s
+2019-06-05 16:37:39,430 INFO  com.github.fakemongo.FongoConnection - updateCommand() namespace:test-db.collectors updates:[com.mongodb.bulk.UpdateRequest@2628b479]
+2019-06-05 16:37:39,437 INFO  com.github.fakemongo.FongoConnection - release()
+2019-06-05 16:37:39,450 INFO  com.github.fakemongo.FongoConnection - updateCommand() namespace:test-db.team updates:[com.mongodb.bulk.UpdateRequest@c3e363]
+2019-06-05 16:37:39,453 INFO  com.github.fakemongo.FongoConnection - release()
+2019-06-05 16:37:39,456 INFO  com.github.fakemongo.FongoConnection - updateCommand() namespace:test-db.team updates:[com.mongodb.bulk.UpdateRequest@37389825]
+2019-06-05 16:37:39,459 INFO  com.github.fakemongo.FongoConnection - release()
+2019-06-05 16:37:39,470 INFO  com.github.fakemongo.FongoConnection - updateCommand() namespace:test-db.scope updates:[com.mongodb.bulk.UpdateRequest@4d45b947]
+2019-06-05 16:37:39,473 INFO  com.github.fakemongo.FongoConnection - release()
+2019-06-05 16:37:39,539 INFO  c.c.d.collector.FeatureCollectorTask - Collecting 1 of 6 boards.
+2019-06-05 16:37:39,542 INFO  c.c.d.collector.CollectorTask - Story Data Collected since 2019-06-05T16:37:39.352 0        0s
+2019-06-05 16:37:39,544 INFO  com.github.fakemongo.FongoConnection - updateCommand() namespace:test-db.team updates:[com.mongodb.bulk.UpdateRequest@2e2d57ea]
+2019-06-05 16:37:39,546 INFO  com.github.fakemongo.FongoConnection - release()
+2019-06-05 16:37:39,550 INFO  c.c.d.collector.FeatureCollectorTask - Collecting 2 of 6 boards.
+2019-06-05 16:37:39,564 INFO  c.c.d.collector.CollectorTask - Story Data Collected since 2019-06-05T16:37:39.362 0        0s
+2019-06-05 16:37:39,567 INFO  com.github.fakemongo.FongoConnection - updateCommand() namespace:test-db.team updates:[com.mongodb.bulk.UpdateRequest@316a71b7]
+2019-06-05 16:37:39,581 INFO  com.github.fakemongo.FongoConnection - release()
+2019-06-05 16:37:39,582 INFO  c.c.d.collector.FeatureCollectorTask - Collecting 3 of 6 boards.
+2019-06-05 16:37:39,590 INFO  c.c.d.collector.CollectorTask - Story Data Collected since 2019-06-05T16:37:39.380 0        0s
+2019-06-05 16:37:39,592 INFO  com.github.fakemongo.FongoConnection - updateCommand() namespace:test-db.team updates:[com.mongodb.bulk.UpdateRequest@42602e0f]
+2019-06-05 16:37:39,598 INFO  com.github.fakemongo.FongoConnection - release()
+2019-06-05 16:37:39,600 INFO  c.c.d.collector.FeatureCollectorTask - Collecting 4 of 6 boards.
+2019-06-05 16:37:39,610 INFO  c.c.d.collector.CollectorTask - Story Data Collected since 2019-06-05T16:37:39.393 0        0s
+2019-06-05 16:37:39,624 INFO  com.github.fakemongo.FongoConnection - updateCommand() namespace:test-db.team updates:[com.mongodb.bulk.UpdateRequest@220f2885]
+2019-06-05 16:37:39,656 INFO  com.github.fakemongo.FongoConnection - release()
+2019-06-05 16:37:39,665 INFO  c.c.d.collector.FeatureCollectorTask - Collecting 5 of 6 boards.
+2019-06-05 16:37:39,668 INFO  c.c.d.collector.CollectorTask - Story Data Collected since 1969-12-31T19:00 0        0s
+2019-06-05 16:37:39,676 INFO  com.github.fakemongo.FongoConnection - updateCommand() namespace:test-db.team updates:[com.mongodb.bulk.UpdateRequest@66d9a929]
+2019-06-05 16:37:39,679 INFO  com.github.fakemongo.FongoConnection - release()
+2019-06-05 16:37:39,680 INFO  c.c.d.collector.FeatureCollectorTask - Collecting 6 of 6 boards.
+2019-06-05 16:37:39,714 INFO  com.github.fakemongo.FongoConnection - updateCommand() namespace:test-db.feature updates:[com.mongodb.bulk.UpdateRequest@478fdd4e]
+2019-06-05 16:37:39,722 INFO  com.github.fakemongo.FongoConnection - release()
+2019-06-05 16:37:39,734 INFO  com.github.fakemongo.FongoConnection - updateCommand() namespace:test-db.feature updates:[com.mongodb.bulk.UpdateRequest@e967e4e]
+2019-06-05 16:37:39,748 INFO  com.github.fakemongo.FongoConnection - release()
+2019-06-05 16:37:39,748 INFO  c.c.d.collector.CollectorTask - Story Data Collected since 1969-12-31T19:00 1        0s
+2019-06-05 16:37:39,751 INFO  com.github.fakemongo.FongoConnection - updateCommand() namespace:test-db.team updates:[com.mongodb.bulk.UpdateRequest@1e414c99]
+2019-06-05 16:37:39,754 INFO  com.github.fakemongo.FongoConnection - release()
+2019-06-05 16:37:39,895 INFO  com.github.fakemongo.FongoConnection - updateCommand() namespace:test-db.collectors updates:[com.mongodb.bulk.UpdateRequest@68ba4819]
+2019-06-05 16:37:39,902 INFO  com.github.fakemongo.FongoConnection - release()
+2019-06-05 16:37:39,918 INFO  com.github.fakemongo.FongoConnection - updateCommand() namespace:test-db.team updates:[com.mongodb.bulk.UpdateRequest@69ef1429]
+2019-06-05 16:37:39,924 INFO  com.github.fakemongo.FongoConnection - release()
+2019-06-05 16:37:39,926 INFO  com.github.fakemongo.FongoConnection - updateCommand() namespace:test-db.team updates:[com.mongodb.bulk.UpdateRequest@3c4f0087]
+2019-06-05 16:37:39,930 INFO  com.github.fakemongo.FongoConnection - release()
+2019-06-05 16:37:39,945 INFO  com.github.fakemongo.FongoConnection - updateCommand() namespace:test-db.scope updates:[com.mongodb.bulk.UpdateRequest@1f537655]
+2019-06-05 16:37:39,947 INFO  com.github.fakemongo.FongoConnection - release()
+2019-06-05 16:37:39,994 INFO  c.c.d.collector.FeatureCollectorTask - Collecting 1 of 6 boards.
+2019-06-05 16:37:39,998 INFO  c.c.d.collector.CollectorTask - Story Data Collected since 2019-06-05T16:37:39.541 0        0s
+2019-06-05 16:37:40,000 INFO  com.github.fakemongo.FongoConnection - updateCommand() namespace:test-db.team updates:[com.mongodb.bulk.UpdateRequest@344c09f1]
+2019-06-05 16:37:40,006 INFO  com.github.fakemongo.FongoConnection - release()
+2019-06-05 16:37:40,008 INFO  c.c.d.collector.FeatureCollectorTask - Collecting 2 of 6 boards.
+2019-06-05 16:37:40,010 INFO  c.c.d.collector.CollectorTask - Story Data Collected since 2019-06-05T16:37:39.563 0        0s
+2019-06-05 16:37:40,013 INFO  com.github.fakemongo.FongoConnection - updateCommand() namespace:test-db.team updates:[com.mongodb.bulk.UpdateRequest@70c36cc7]
+2019-06-05 16:37:40,015 INFO  com.github.fakemongo.FongoConnection - release()
+2019-06-05 16:37:40,016 INFO  c.c.d.collector.FeatureCollectorTask - Collecting 3 of 6 boards.
+2019-06-05 16:37:40,017 INFO  c.c.d.collector.CollectorTask - Story Data Collected since 2019-06-05T16:37:39.585 0        0s
+2019-06-05 16:37:40,023 INFO  com.github.fakemongo.FongoConnection - updateCommand() namespace:test-db.team updates:[com.mongodb.bulk.UpdateRequest@74a65d54]
+2019-06-05 16:37:40,025 INFO  com.github.fakemongo.FongoConnection - release()
+2019-06-05 16:37:40,026 INFO  c.c.d.collector.FeatureCollectorTask - Collecting 4 of 6 boards.
+2019-06-05 16:37:40,028 INFO  c.c.d.collector.CollectorTask - Story Data Collected since 2019-06-05T16:37:39.602 0        0s
+2019-06-05 16:37:40,029 INFO  com.github.fakemongo.FongoConnection - updateCommand() namespace:test-db.team updates:[com.mongodb.bulk.UpdateRequest@49f116d9]
+2019-06-05 16:37:40,032 INFO  com.github.fakemongo.FongoConnection - release()
+2019-06-05 16:37:40,033 INFO  c.c.d.collector.FeatureCollectorTask - Collecting 5 of 6 boards.
+2019-06-05 16:37:40,035 INFO  c.c.d.collector.CollectorTask - Story Data Collected since 1969-12-31T19:00 0        0s
+2019-06-05 16:37:40,036 INFO  com.github.fakemongo.FongoConnection - updateCommand() namespace:test-db.team updates:[com.mongodb.bulk.UpdateRequest@1d268d97]
+2019-06-05 16:37:40,039 INFO  com.github.fakemongo.FongoConnection - release()
+2019-06-05 16:37:40,040 INFO  c.c.d.collector.FeatureCollectorTask - Collecting 6 of 6 boards.
+2019-06-05 16:37:40,055 INFO  com.github.fakemongo.FongoConnection - updateCommand() namespace:test-db.feature updates:[com.mongodb.bulk.UpdateRequest@71644fdf]
+2019-06-05 16:37:40,063 INFO  com.github.fakemongo.FongoConnection - release()
+2019-06-05 16:37:40,070 INFO  com.github.fakemongo.FongoConnection - updateCommand() namespace:test-db.feature updates:[com.mongodb.bulk.UpdateRequest@6d275f8e]
+2019-06-05 16:37:40,078 INFO  com.github.fakemongo.FongoConnection - release()
+2019-06-05 16:37:40,079 INFO  c.c.d.collector.CollectorTask - Story Data Collected since 1969-12-31T19:00 1        0s
+2019-06-05 16:37:40,082 INFO  com.github.fakemongo.FongoConnection - updateCommand() namespace:test-db.team updates:[com.mongodb.bulk.UpdateRequest@4be5469e]
+2019-06-05 16:37:40,085 INFO  com.github.fakemongo.FongoConnection - release()
+2019-06-05 16:37:40,217 INFO  com.github.fakemongo.FongoConnection - updateCommand() namespace:test-db.collectors updates:[com.mongodb.bulk.UpdateRequest@2eb4d9ee]
+2019-06-05 16:37:40,220 INFO  com.github.fakemongo.FongoConnection - release()
+2019-06-05 16:37:40,228 INFO  com.github.fakemongo.FongoConnection - updateCommand() namespace:test-db.team updates:[com.mongodb.bulk.UpdateRequest@4f04ab10]
+2019-06-05 16:37:40,231 INFO  com.github.fakemongo.FongoConnection - release()
+2019-06-05 16:37:40,232 INFO  com.github.fakemongo.FongoConnection - updateCommand() namespace:test-db.team updates:[com.mongodb.bulk.UpdateRequest@30c338c8]
+2019-06-05 16:37:40,236 INFO  com.github.fakemongo.FongoConnection - release()
+2019-06-05 16:37:40,245 INFO  com.github.fakemongo.FongoConnection - updateCommand() namespace:test-db.scope updates:[com.mongodb.bulk.UpdateRequest@8d0774a]
+2019-06-05 16:37:40,248 INFO  com.github.fakemongo.FongoConnection - release()
+2019-06-05 16:37:40,295 INFO  c.c.d.collector.FeatureCollectorTask - Collecting 1 of 6 boards.
+2019-06-05 16:37:40,297 INFO  c.c.d.collector.CollectorTask - Story Data Collected since 2019-06-05T16:37:39.995 0        0s
+2019-06-05 16:37:40,299 INFO  com.github.fakemongo.FongoConnection - updateCommand() namespace:test-db.team updates:[com.mongodb.bulk.UpdateRequest@a3b417]
+2019-06-05 16:37:40,302 INFO  com.github.fakemongo.FongoConnection - release()
+2019-06-05 16:37:40,302 INFO  c.c.d.collector.FeatureCollectorTask - Collecting 2 of 6 boards.
+2019-06-05 16:37:40,307 INFO  c.c.d.collector.CollectorTask - Story Data Collected since 2019-06-05T16:37:40.008 0        0s
+2019-06-05 16:37:40,317 INFO  com.github.fakemongo.FongoConnection - updateCommand() namespace:test-db.team updates:[com.mongodb.bulk.UpdateRequest@6a15d338]
+2019-06-05 16:37:40,338 INFO  com.github.fakemongo.FongoConnection - release()
+2019-06-05 16:37:40,340 INFO  c.c.d.collector.FeatureCollectorTask - Collecting 3 of 6 boards.
+2019-06-05 16:37:40,342 INFO  c.c.d.collector.CollectorTask - Story Data Collected since 2019-06-05T16:37:40.016 0        0s
+2019-06-05 16:37:40,343 INFO  com.github.fakemongo.FongoConnection - updateCommand() namespace:test-db.team updates:[com.mongodb.bulk.UpdateRequest@4339a3ca]
+2019-06-05 16:37:40,348 INFO  com.github.fakemongo.FongoConnection - release()
+2019-06-05 16:37:40,352 INFO  c.c.d.collector.FeatureCollectorTask - Collecting 4 of 6 boards.
+2019-06-05 16:37:40,356 INFO  c.c.d.collector.CollectorTask - Story Data Collected since 2019-06-05T16:37:40.027 0        0s
+2019-06-05 16:37:40,358 INFO  com.github.fakemongo.FongoConnection - updateCommand() namespace:test-db.team updates:[com.mongodb.bulk.UpdateRequest@4858e6c0]
+2019-06-05 16:37:40,362 INFO  com.github.fakemongo.FongoConnection - release()
+2019-06-05 16:37:40,363 INFO  c.c.d.collector.FeatureCollectorTask - Collecting 5 of 6 boards.
+2019-06-05 16:37:40,367 INFO  c.c.d.collector.CollectorTask - Story Data Collected since 1969-12-31T19:00 0        0s
+2019-06-05 16:37:40,368 INFO  com.github.fakemongo.FongoConnection - updateCommand() namespace:test-db.team updates:[com.mongodb.bulk.UpdateRequest@55c6e0d0]
+2019-06-05 16:37:40,371 INFO  com.github.fakemongo.FongoConnection - release()
+2019-06-05 16:37:40,372 INFO  c.c.d.collector.FeatureCollectorTask - Collecting 6 of 6 boards.
+2019-06-05 16:37:40,390 INFO  com.github.fakemongo.FongoConnection - updateCommand() namespace:test-db.feature updates:[com.mongodb.bulk.UpdateRequest@1f27b34b]
+2019-06-05 16:37:40,395 INFO  com.github.fakemongo.FongoConnection - release()
+2019-06-05 16:37:40,402 INFO  com.github.fakemongo.FongoConnection - updateCommand() namespace:test-db.feature updates:[com.mongodb.bulk.UpdateRequest@10224d43]
+2019-06-05 16:37:40,407 INFO  com.github.fakemongo.FongoConnection - release()
+2019-06-05 16:37:40,408 INFO  c.c.d.collector.CollectorTask - Story Data Collected since 1969-12-31T19:00 1        0s
+2019-06-05 16:37:40,410 INFO  com.github.fakemongo.FongoConnection - updateCommand() namespace:test-db.team updates:[com.mongodb.bulk.UpdateRequest@323d09e7]
+2019-06-05 16:37:40,414 INFO  com.github.fakemongo.FongoConnection - release()
+2019-06-05 16:37:40,555 INFO  com.github.fakemongo.FongoConnection - updateCommand() namespace:test-db.collectors updates:[com.mongodb.bulk.UpdateRequest@2bba7bd9]
+2019-06-05 16:37:40,558 INFO  com.github.fakemongo.FongoConnection - release()
+2019-06-05 16:37:40,564 INFO  com.github.fakemongo.FongoConnection - updateCommand() namespace:test-db.team updates:[com.mongodb.bulk.UpdateRequest@4af4d738]
+2019-06-05 16:37:40,566 INFO  com.github.fakemongo.FongoConnection - release()
+2019-06-05 16:37:40,568 INFO  com.github.fakemongo.FongoConnection - updateCommand() namespace:test-db.team updates:[com.mongodb.bulk.UpdateRequest@4ddecf15]
+2019-06-05 16:37:40,570 INFO  com.github.fakemongo.FongoConnection - release()
+2019-06-05 16:37:40,577 INFO  com.github.fakemongo.FongoConnection - updateCommand() namespace:test-db.scope updates:[com.mongodb.bulk.UpdateRequest@70691683]
+2019-06-05 16:37:40,579 INFO  com.github.fakemongo.FongoConnection - release()
+2019-06-05 16:37:40,601 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2019-06-05 16:37:40,602 INFO  c.c.d.collector.CollectorTask - https://jira.com/
+2019-06-05 16:37:40,606 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2019-06-05 16:37:40,606 INFO  c.c.d.collector.FeatureCollectorTask - JIRA Collector is set to work in Board mode
+2019-06-05 16:37:40,606 INFO  c.c.d.collector.FeatureCollectorTask - Hours since last run = 3480. Collector is about to refresh Team/Board information
+2019-06-05 16:37:40,607 INFO  c.c.d.collector.DefaultJiraClient - JIRA Collector collected 4 boards
+2019-06-05 16:37:40,608 INFO  c.c.d.collector.FeatureCollectorTask - Adding Board:8-TtestBoard scrum 1
+2019-06-05 16:37:40,612 INFO  com.github.fakemongo.FongoConnection - updateCommand() namespace:test-db.team updates:[com.mongodb.bulk.UpdateRequest@875cfe4]
+2019-06-05 16:37:40,614 INFO  com.github.fakemongo.FongoConnection - release()
+2019-06-05 16:37:40,615 INFO  c.c.d.collector.FeatureCollectorTask - Adding Board:16-TestBoard scrum  2
+2019-06-05 16:37:40,618 INFO  com.github.fakemongo.FongoConnection - updateCommand() namespace:test-db.team updates:[com.mongodb.bulk.UpdateRequest@645494c5]
+2019-06-05 16:37:40,623 INFO  com.github.fakemongo.FongoConnection - release()
+2019-06-05 16:37:40,623 INFO  c.c.d.collector.FeatureCollectorTask - Adding Board:17-TestBoard kanban 1
+2019-06-05 16:37:40,626 INFO  com.github.fakemongo.FongoConnection - updateCommand() namespace:test-db.team updates:[com.mongodb.bulk.UpdateRequest@5fc9593d]
+2019-06-05 16:37:40,628 INFO  com.github.fakemongo.FongoConnection - release()
+2019-06-05 16:37:40,629 INFO  c.c.d.collector.FeatureCollectorTask - Adding Board:125-TestBoard kanban 2
+2019-06-05 16:37:40,631 INFO  com.github.fakemongo.FongoConnection - updateCommand() namespace:test-db.team updates:[com.mongodb.bulk.UpdateRequest@672c8149]
+2019-06-05 16:37:40,633 INFO  com.github.fakemongo.FongoConnection - release()
+2019-06-05 16:37:40,641 INFO  c.c.d.collector.CollectorTask - Board Data Collected. Added  4        0s
+2019-06-05 16:37:40,647 INFO  c.c.d.collector.FeatureCollectorTask - Deleting Board:998-TestBoard kanban 1
+2019-06-05 16:37:40,649 INFO  c.c.d.collector.FeatureCollectorTask - Deleting Board:999-TestBoard kanban 3
+2019-06-05 16:37:40,652 INFO  c.c.d.collector.CollectorTask - Board Data Collected. Deleted  2        0s
+2019-06-05 16:37:40,655 INFO  c.c.d.collector.FeatureCollectorTask - Adding :11500-Project 2
+2019-06-05 16:37:40,659 INFO  com.github.fakemongo.FongoConnection - updateCommand() namespace:test-db.scope updates:[com.mongodb.bulk.UpdateRequest@418068a7]
+2019-06-05 16:37:40,661 INFO  com.github.fakemongo.FongoConnection - release()
+2019-06-05 16:37:40,662 INFO  c.c.d.collector.FeatureCollectorTask - Adding :13700-Project 1
+2019-06-05 16:37:40,664 INFO  com.github.fakemongo.FongoConnection - updateCommand() namespace:test-db.scope updates:[com.mongodb.bulk.UpdateRequest@1b23eee]
+2019-06-05 16:37:40,666 INFO  com.github.fakemongo.FongoConnection - release()
+2019-06-05 16:37:40,669 INFO  c.c.d.collector.CollectorTask - Project Data Collected  2        0s
+2019-06-05 16:37:40,675 INFO  c.c.d.collector.FeatureCollectorTask - Deleting :137001-Project 3
+2019-06-05 16:37:40,677 INFO  c.c.d.collector.CollectorTask - Project Data Collected. Deleted  1        0s
+2019-06-05 16:37:40,678 INFO  com.github.fakemongo.FongoConnection - updateCommand() namespace:test-db.collectors updates:[com.mongodb.bulk.UpdateRequest@14a78f54]
+2019-06-05 16:37:40,681 INFO  com.github.fakemongo.FongoConnection - release()
+2019-06-05 16:37:40,684 INFO  c.c.d.collector.FeatureCollectorTask - Collected 4 teams and 2 projects
+2019-06-05 16:37:40,692 INFO  c.c.d.collector.FeatureCollectorTask - Collecting 1 of 4 boards.
+2019-06-05 16:37:40,693 INFO  c.c.d.collector.CollectorTask - Story Data Collected since 1969-12-31T19:00 0        0s
+2019-06-05 16:37:40,694 INFO  com.github.fakemongo.FongoConnection - updateCommand() namespace:test-db.team updates:[com.mongodb.bulk.UpdateRequest@17826240]
+2019-06-05 16:37:40,699 INFO  com.github.fakemongo.FongoConnection - release()
+2019-06-05 16:37:40,700 INFO  c.c.d.collector.FeatureCollectorTask - Collecting 2 of 4 boards.
+2019-06-05 16:37:40,701 INFO  c.c.d.collector.CollectorTask - Story Data Collected since 1969-12-31T19:00 0        0s
+2019-06-05 16:37:40,703 INFO  com.github.fakemongo.FongoConnection - updateCommand() namespace:test-db.team updates:[com.mongodb.bulk.UpdateRequest@5585f547]
+2019-06-05 16:37:40,706 INFO  com.github.fakemongo.FongoConnection - release()
+2019-06-05 16:37:40,707 INFO  c.c.d.collector.FeatureCollectorTask - Collecting 3 of 4 boards.
+2019-06-05 16:37:40,711 INFO  c.c.d.collector.CollectorTask - Story Data Collected since 1969-12-31T19:00 0        0s
+2019-06-05 16:37:40,713 INFO  com.github.fakemongo.FongoConnection - updateCommand() namespace:test-db.team updates:[com.mongodb.bulk.UpdateRequest@4550e457]
+2019-06-05 16:37:40,714 INFO  com.github.fakemongo.FongoConnection - release()
+2019-06-05 16:37:40,715 INFO  c.c.d.collector.FeatureCollectorTask - Collecting 4 of 4 boards.
+2019-06-05 16:37:40,716 INFO  c.c.d.collector.CollectorTask - Story Data Collected since 1969-12-31T19:00 0        0s
+2019-06-05 16:37:40,717 INFO  com.github.fakemongo.FongoConnection - updateCommand() namespace:test-db.team updates:[com.mongodb.bulk.UpdateRequest@6da51e86]
+2019-06-05 16:37:40,723 INFO  com.github.fakemongo.FongoConnection - release()
+2019-06-05 16:37:40,733 INFO  c.c.d.collector.CollectorTask - Finished                         0s
+2019-06-05 16:37:40,759 INFO  com.github.fakemongo.FongoConnection - updateCommand() namespace:test-db.collectors updates:[com.mongodb.bulk.UpdateRequest@13e40ebc]
+2019-06-05 16:37:40,761 INFO  com.github.fakemongo.FongoConnection - release()
+2019-06-05 16:37:40,768 INFO  com.github.fakemongo.FongoConnection - updateCommand() namespace:test-db.team updates:[com.mongodb.bulk.UpdateRequest@515432cb]
+2019-06-05 16:37:40,769 INFO  com.github.fakemongo.FongoConnection - release()
+2019-06-05 16:37:40,771 INFO  com.github.fakemongo.FongoConnection - updateCommand() namespace:test-db.team updates:[com.mongodb.bulk.UpdateRequest@14404749]
+2019-06-05 16:37:40,773 INFO  com.github.fakemongo.FongoConnection - release()
+2019-06-05 16:37:40,789 INFO  com.github.fakemongo.FongoConnection - updateCommand() namespace:test-db.scope updates:[com.mongodb.bulk.UpdateRequest@729f1db0]
+2019-06-05 16:37:40,792 INFO  com.github.fakemongo.FongoConnection - release()
+2019-06-05 16:37:40,810 INFO  c.c.d.collector.DefaultJiraClient - JIRA Collector collected 1 boards
+2019-06-05 16:37:40,812 INFO  c.c.d.collector.FeatureCollectorTask - Adding Board:999-TestBoard kanban 3
+2019-06-05 16:37:40,815 INFO  com.github.fakemongo.FongoConnection - updateCommand() namespace:test-db.team updates:[com.mongodb.bulk.UpdateRequest@41bd7cb1]
+2019-06-05 16:37:40,817 INFO  com.github.fakemongo.FongoConnection - release()
+2019-06-05 16:37:40,818 INFO  c.c.d.collector.CollectorTask - Board Data Collected. Added  1        0s
+2019-06-05 16:37:40,828 INFO  c.c.d.collector.FeatureCollectorTask - Deleting Board:125-TestBoard kanban 2
+2019-06-05 16:37:40,829 INFO  c.c.d.collector.FeatureCollectorTask - Deleting Board:16-TestBoard scrum  2
+2019-06-05 16:37:40,831 INFO  c.c.d.collector.FeatureCollectorTask - Deleting Board:17-TestBoard kanban 1
+2019-06-05 16:37:40,831 INFO  c.c.d.collector.FeatureCollectorTask - Deleting Board:8-TtestBoard scrum 1
+2019-06-05 16:37:40,831 INFO  c.c.d.collector.FeatureCollectorTask - Deleting Board:998-TestBoard kanban 1
+2019-06-05 16:37:40,838 INFO  c.c.d.collector.CollectorTask - Board Data Collected. Deleted  5        0s
+2019-06-05 16:37:40,842 INFO  o.s.c.s.GenericApplicationContext - Closing org.springframework.context.support.GenericApplicationContext@348792e3: startup date [Wed Jun 05 16:37:29 EDT 2019]; root of context hierarchy
+2019-06-05 16:37:40,866 INFO  com.github.fakemongo.FongoConnection - updateCommand() namespace:test-db.collectors updates:[com.mongodb.bulk.UpdateRequest@318fdc27]
+2019-06-05 16:37:40,868 INFO  com.github.fakemongo.FongoConnection - release()
+2019-06-05 17:22:54,485 INFO  o.s.t.c.s.DefaultTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2019-06-05 17:22:54,599 INFO  o.s.t.c.s.DefaultTestContextBootstrapper - Could not instantiate TestExecutionListener [org.springframework.test.context.web.ServletTestExecutionListener]. Specify custom listener classes or make the default listener classes (and their required dependencies) available. Offending class: [javax/servlet/ServletContext]
+2019-06-05 17:22:54,616 INFO  o.s.t.c.s.DefaultTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@55d58825, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@19a64eae, org.springframework.test.context.support.DirtiesContextTestExecutionListener@29a98d9f, org.springframework.test.context.transaction.TransactionalTestExecutionListener@2da3b078, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@544e8149]
+2019-06-05 17:22:54,832 INFO  o.s.t.c.s.DefaultTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2019-06-05 17:22:54,836 INFO  o.s.t.c.s.DefaultTestContextBootstrapper - Could not instantiate TestExecutionListener [org.springframework.test.context.web.ServletTestExecutionListener]. Specify custom listener classes or make the default listener classes (and their required dependencies) available. Offending class: [javax/servlet/ServletContext]
+2019-06-05 17:22:54,838 INFO  o.s.t.c.s.DefaultTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@22a10ac6, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@12fe1f28, org.springframework.test.context.support.DirtiesContextTestExecutionListener@503df2d0, org.springframework.test.context.transaction.TransactionalTestExecutionListener@26fb4d06, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@c269425]
+2019-06-05 17:22:54,973 INFO  o.s.t.c.s.DefaultTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2019-06-05 17:22:54,978 INFO  o.s.t.c.s.DefaultTestContextBootstrapper - Could not instantiate TestExecutionListener [org.springframework.test.context.web.ServletTestExecutionListener]. Specify custom listener classes or make the default listener classes (and their required dependencies) available. Offending class: [javax/servlet/ServletContext]
+2019-06-05 17:22:54,981 INFO  o.s.t.c.s.DefaultTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@6a12c7a8, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@161aa04a, org.springframework.test.context.support.DirtiesContextTestExecutionListener@436bd4df, org.springframework.test.context.transaction.TransactionalTestExecutionListener@6848a051, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@149b0577]
+2019-06-05 17:22:56,704 INFO  o.s.c.s.GenericApplicationContext - Refreshing org.springframework.context.support.GenericApplicationContext@13516600: startup date [Wed Jun 05 17:22:56 EDT 2019]; root of context hierarchy
+2019-06-05 17:22:58,968 INFO  o.s.b.f.s.DefaultListableBeanFactory - Overriding bean definition for bean 'featureSettings' with a different definition: replacing [Generic bean: class [com.capitalone.dashboard.collector.FeatureSettings]; scope=singleton; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [C:\Users\abijja2\Desktop\git_workspace\Hygieia\collectors\feature\jira\target\classes\com\capitalone\dashboard\collector\FeatureSettings.class]] with [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=testConfig; factoryMethodName=featureSettings; initMethodName=null; destroyMethodName=(inferred); defined in com.capitalone.dashboard.config.TestConfig]
+2019-06-05 17:23:01,550 INFO  o.s.b.f.a.AutowiredAnnotationBeanPostProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2019-06-05 17:23:15,701 INFO  c.c.d.collector.DefaultJiraClient - JIRA Collector collected 4 boards
+2019-06-05 17:23:15,796 INFO  o.s.c.s.GenericApplicationContext - Closing org.springframework.context.support.GenericApplicationContext@13516600: startup date [Wed Jun 05 17:22:56 EDT 2019]; root of context hierarchy
+2019-06-05 17:23:15,899 INFO  o.s.t.c.s.DefaultTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2019-06-05 17:23:15,908 INFO  o.s.t.c.s.DefaultTestContextBootstrapper - Could not instantiate TestExecutionListener [org.springframework.test.context.web.ServletTestExecutionListener]. Specify custom listener classes or make the default listener classes (and their required dependencies) available. Offending class: [javax/servlet/ServletContext]
+2019-06-05 17:23:15,915 INFO  o.s.t.c.s.DefaultTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@7b00f659, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@1d8ec941, org.springframework.test.context.support.DirtiesContextTestExecutionListener@2814bb39, org.springframework.test.context.transaction.TransactionalTestExecutionListener@5772a790, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@2bbc3119]
+2019-06-05 17:23:16,001 INFO  o.s.c.s.GenericApplicationContext - Refreshing org.springframework.context.support.GenericApplicationContext@6c84fdaa: startup date [Wed Jun 05 17:23:16 EDT 2019]; root of context hierarchy
+2019-06-05 17:23:17,155 INFO  o.s.b.f.s.DefaultListableBeanFactory - Overriding bean definition for bean 'featureSettings' with a different definition: replacing [Generic bean: class [com.capitalone.dashboard.collector.FeatureSettings]; scope=singleton; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [C:\Users\abijja2\Desktop\git_workspace\Hygieia\collectors\feature\jira\target\classes\com\capitalone\dashboard\collector\FeatureSettings.class]] with [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=testConfig; factoryMethodName=featureSettings; initMethodName=null; destroyMethodName=(inferred); defined in com.capitalone.dashboard.config.TestConfig]
+2019-06-05 17:23:18,606 INFO  o.s.b.f.a.AutowiredAnnotationBeanPostProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2019-06-05 17:23:22,946 INFO  com.github.fakemongo.FongoConnection - updateCommand() namespace:test-db.collectors updates:[com.mongodb.bulk.UpdateRequest@6cf71be6]
+2019-06-05 17:23:23,097 INFO  com.github.fakemongo.FongoConnection - release()
+2019-06-05 17:23:23,126 INFO  com.github.fakemongo.FongoConnection - updateCommand() namespace:test-db.team updates:[com.mongodb.bulk.UpdateRequest@542e3b11]
+2019-06-05 17:23:23,150 INFO  com.github.fakemongo.FongoConnection - release()
+2019-06-05 17:23:23,155 INFO  com.github.fakemongo.FongoConnection - updateCommand() namespace:test-db.team updates:[com.mongodb.bulk.UpdateRequest@6b05a1fd]
+2019-06-05 17:23:23,159 INFO  com.github.fakemongo.FongoConnection - release()
+2019-06-05 17:23:23,186 INFO  com.github.fakemongo.FongoConnection - updateCommand() namespace:test-db.scope updates:[com.mongodb.bulk.UpdateRequest@45ac5ad1]
+2019-06-05 17:23:23,202 INFO  com.github.fakemongo.FongoConnection - release()
+2019-06-05 17:23:23,375 INFO  c.c.d.collector.FeatureCollectorTask - Adding :137001-Project 3 updated
+2019-06-05 17:23:23,386 INFO  com.github.fakemongo.FongoConnection - updateCommand() namespace:test-db.scope updates:[com.mongodb.bulk.UpdateRequest@45d041c5]
+2019-06-05 17:23:23,395 INFO  com.github.fakemongo.FongoConnection - release()
+2019-06-05 17:23:23,407 INFO  c.c.d.collector.CollectorTask - Project Data Collected  1        0s
+2019-06-05 17:23:23,623 INFO  com.github.fakemongo.FongoConnection - updateCommand() namespace:test-db.collectors updates:[com.mongodb.bulk.UpdateRequest@1b7886ee]
+2019-06-05 17:23:23,644 INFO  com.github.fakemongo.FongoConnection - release()
+2019-06-05 17:23:23,659 INFO  com.github.fakemongo.FongoConnection - updateCommand() namespace:test-db.team updates:[com.mongodb.bulk.UpdateRequest@75f0a654]
+2019-06-05 17:23:23,664 INFO  com.github.fakemongo.FongoConnection - release()
+2019-06-05 17:23:23,668 INFO  com.github.fakemongo.FongoConnection - updateCommand() namespace:test-db.team updates:[com.mongodb.bulk.UpdateRequest@1c60b49c]
+2019-06-05 17:23:23,676 INFO  com.github.fakemongo.FongoConnection - release()
+2019-06-05 17:23:23,700 INFO  com.github.fakemongo.FongoConnection - updateCommand() namespace:test-db.scope updates:[com.mongodb.bulk.UpdateRequest@5573267]
+2019-06-05 17:23:23,706 INFO  com.github.fakemongo.FongoConnection - release()
+2019-06-05 17:23:23,757 INFO  c.c.d.collector.FeatureCollectorTask - Adding :11500-Project 2
+2019-06-05 17:23:23,771 INFO  c.c.d.collector.FeatureCollectorTask - Adding :13700-Project 1
+2019-06-05 17:23:23,774 INFO  c.c.d.collector.CollectorTask - Project Data Collected  2        0s
+2019-06-05 17:23:23,792 INFO  c.c.d.collector.FeatureCollectorTask - Deleting :137001-Project 3
+2019-06-05 17:23:23,805 INFO  c.c.d.collector.CollectorTask - Project Data Collected. Deleted  1        0s
+2019-06-05 17:23:23,857 INFO  com.github.fakemongo.FongoConnection - updateCommand() namespace:test-db.collectors updates:[com.mongodb.bulk.UpdateRequest@a3289a3]
+2019-06-05 17:23:23,863 INFO  com.github.fakemongo.FongoConnection - release()
+2019-06-05 17:23:23,874 INFO  com.github.fakemongo.FongoConnection - updateCommand() namespace:test-db.team updates:[com.mongodb.bulk.UpdateRequest@4a687cba]
+2019-06-05 17:23:23,883 INFO  com.github.fakemongo.FongoConnection - release()
+2019-06-05 17:23:23,886 INFO  com.github.fakemongo.FongoConnection - updateCommand() namespace:test-db.team updates:[com.mongodb.bulk.UpdateRequest@25358a90]
+2019-06-05 17:23:23,890 INFO  com.github.fakemongo.FongoConnection - release()
+2019-06-05 17:23:23,904 INFO  com.github.fakemongo.FongoConnection - updateCommand() namespace:test-db.scope updates:[com.mongodb.bulk.UpdateRequest@b14379c]
+2019-06-05 17:23:23,909 INFO  com.github.fakemongo.FongoConnection - release()
+2019-06-05 17:23:23,943 INFO  c.c.d.collector.DefaultJiraClient - JIRA Collector collected 4 boards
+2019-06-05 17:23:23,946 INFO  c.c.d.collector.FeatureCollectorTask - Adding Board:8-TtestBoard scrum 1
+2019-06-05 17:23:23,953 INFO  c.c.d.collector.FeatureCollectorTask - Adding Board:16-TestBoard scrum  2
+2019-06-05 17:23:23,962 INFO  c.c.d.collector.FeatureCollectorTask - Adding Board:17-TestBoard kanban 1
+2019-06-05 17:23:23,967 INFO  c.c.d.collector.FeatureCollectorTask - Adding Board:125-TestBoard kanban 2
+2019-06-05 17:23:23,973 INFO  c.c.d.collector.CollectorTask - Board Data Collected. Added  4        0s
+2019-06-05 17:23:23,992 INFO  c.c.d.collector.FeatureCollectorTask - Deleting Board:998-TestBoard kanban 1
+2019-06-05 17:23:23,992 INFO  c.c.d.collector.FeatureCollectorTask - Deleting Board:999-TestBoard kanban 3
+2019-06-05 17:23:24,000 INFO  c.c.d.collector.CollectorTask - Board Data Collected. Deleted  2        0s
+2019-06-05 17:23:24,036 INFO  com.github.fakemongo.FongoConnection - updateCommand() namespace:test-db.collectors updates:[com.mongodb.bulk.UpdateRequest@3162d486]
+2019-06-05 17:23:24,046 INFO  com.github.fakemongo.FongoConnection - release()
+2019-06-05 17:23:24,055 INFO  com.github.fakemongo.FongoConnection - updateCommand() namespace:test-db.team updates:[com.mongodb.bulk.UpdateRequest@7296661b]
+2019-06-05 17:23:24,060 INFO  com.github.fakemongo.FongoConnection - release()
+2019-06-05 17:23:24,069 INFO  com.github.fakemongo.FongoConnection - updateCommand() namespace:test-db.team updates:[com.mongodb.bulk.UpdateRequest@34243ccd]
+2019-06-05 17:23:24,101 INFO  com.github.fakemongo.FongoConnection - release()
+2019-06-05 17:23:24,111 INFO  com.github.fakemongo.FongoConnection - updateCommand() namespace:test-db.scope updates:[com.mongodb.bulk.UpdateRequest@6cc4aa3d]
+2019-06-05 17:23:24,127 INFO  com.github.fakemongo.FongoConnection - release()
+2019-06-05 17:23:24,223 INFO  c.c.d.collector.FeatureCollectorTask - Collecting 1 of 6 boards.
+2019-06-05 17:23:24,239 INFO  c.c.d.collector.CollectorTask - Story Data Collected since 1969-12-31T19:00 0        0s
+2019-06-05 17:23:24,246 INFO  com.github.fakemongo.FongoConnection - updateCommand() namespace:test-db.team updates:[com.mongodb.bulk.UpdateRequest@4ca8b1a4]
+2019-06-05 17:23:24,256 INFO  com.github.fakemongo.FongoConnection - release()
+2019-06-05 17:23:24,260 INFO  c.c.d.collector.FeatureCollectorTask - Collecting 2 of 6 boards.
+2019-06-05 17:23:24,262 INFO  c.c.d.collector.CollectorTask - Story Data Collected since 1969-12-31T19:00 0        0s
+2019-06-05 17:23:24,271 INFO  com.github.fakemongo.FongoConnection - updateCommand() namespace:test-db.team updates:[com.mongodb.bulk.UpdateRequest@3f9c5ea9]
+2019-06-05 17:23:24,283 INFO  com.github.fakemongo.FongoConnection - release()
+2019-06-05 17:23:24,285 INFO  c.c.d.collector.FeatureCollectorTask - Collecting 3 of 6 boards.
+2019-06-05 17:23:24,287 INFO  c.c.d.collector.CollectorTask - Story Data Collected since 1969-12-31T19:00 0        0s
+2019-06-05 17:23:24,289 INFO  com.github.fakemongo.FongoConnection - updateCommand() namespace:test-db.team updates:[com.mongodb.bulk.UpdateRequest@549e0088]
+2019-06-05 17:23:24,292 INFO  com.github.fakemongo.FongoConnection - release()
+2019-06-05 17:23:24,304 INFO  c.c.d.collector.FeatureCollectorTask - Collecting 4 of 6 boards.
+2019-06-05 17:23:24,306 INFO  c.c.d.collector.CollectorTask - Story Data Collected since 1969-12-31T19:00 0        0s
+2019-06-05 17:23:24,309 INFO  com.github.fakemongo.FongoConnection - updateCommand() namespace:test-db.team updates:[com.mongodb.bulk.UpdateRequest@7faf6a72]
+2019-06-05 17:23:24,320 INFO  com.github.fakemongo.FongoConnection - release()
+2019-06-05 17:23:24,325 INFO  c.c.d.collector.FeatureCollectorTask - Collecting 5 of 6 boards.
+2019-06-05 17:23:24,330 INFO  c.c.d.collector.CollectorTask - Story Data Collected since 1969-12-31T19:00 0        0s
+2019-06-05 17:23:24,342 INFO  com.github.fakemongo.FongoConnection - updateCommand() namespace:test-db.team updates:[com.mongodb.bulk.UpdateRequest@2b37a0dd]
+2019-06-05 17:23:24,349 INFO  com.github.fakemongo.FongoConnection - release()
+2019-06-05 17:23:24,352 INFO  c.c.d.collector.FeatureCollectorTask - Collecting 6 of 6 boards.
+2019-06-05 17:23:24,439 INFO  c.c.d.collector.CollectorTask - Story Data Collected since 1969-12-31T19:00 1        0s
+2019-06-05 17:23:24,441 INFO  com.github.fakemongo.FongoConnection - updateCommand() namespace:test-db.team updates:[com.mongodb.bulk.UpdateRequest@63972697]
+2019-06-05 17:23:24,451 INFO  com.github.fakemongo.FongoConnection - release()
+2019-06-05 17:23:24,611 INFO  com.github.fakemongo.FongoConnection - updateCommand() namespace:test-db.collectors updates:[com.mongodb.bulk.UpdateRequest@6bcefcef]
+2019-06-05 17:23:24,621 INFO  com.github.fakemongo.FongoConnection - release()
+2019-06-05 17:23:24,633 INFO  com.github.fakemongo.FongoConnection - updateCommand() namespace:test-db.team updates:[com.mongodb.bulk.UpdateRequest@1c120935]
+2019-06-05 17:23:24,642 INFO  com.github.fakemongo.FongoConnection - release()
+2019-06-05 17:23:24,645 INFO  com.github.fakemongo.FongoConnection - updateCommand() namespace:test-db.team updates:[com.mongodb.bulk.UpdateRequest@1b51963d]
+2019-06-05 17:23:24,652 INFO  com.github.fakemongo.FongoConnection - release()
+2019-06-05 17:23:24,664 INFO  com.github.fakemongo.FongoConnection - updateCommand() namespace:test-db.scope updates:[com.mongodb.bulk.UpdateRequest@1457dbd0]
+2019-06-05 17:23:24,669 INFO  com.github.fakemongo.FongoConnection - release()
+2019-06-05 17:23:24,704 INFO  c.c.d.collector.DefaultJiraClient - JIRA Collector collected 1 boards
+2019-06-05 17:23:24,705 INFO  c.c.d.collector.FeatureCollectorTask - Adding Board:998-TestBoard kanban Existing 1
+2019-06-05 17:23:24,720 INFO  com.github.fakemongo.FongoConnection - updateCommand() namespace:test-db.team updates:[com.mongodb.bulk.UpdateRequest@8626431]
+2019-06-05 17:23:24,732 INFO  com.github.fakemongo.FongoConnection - release()
+2019-06-05 17:23:24,734 INFO  c.c.d.collector.CollectorTask - Board Data Collected. Added  1        0s
+2019-06-05 17:23:24,757 INFO  c.c.d.collector.FeatureCollectorTask - Deleting Board:125-TestBoard kanban 2
+2019-06-05 17:23:24,758 INFO  c.c.d.collector.FeatureCollectorTask - Deleting Board:16-TestBoard scrum  2
+2019-06-05 17:23:24,759 INFO  c.c.d.collector.FeatureCollectorTask - Deleting Board:17-TestBoard kanban 1
+2019-06-05 17:23:24,766 INFO  c.c.d.collector.FeatureCollectorTask - Deleting Board:8-TtestBoard scrum 1
+2019-06-05 17:23:24,775 INFO  c.c.d.collector.FeatureCollectorTask - Deleting Board:999-TestBoard kanban 3
+2019-06-05 17:23:24,783 INFO  c.c.d.collector.CollectorTask - Board Data Collected. Deleted  5        0s
+2019-06-05 17:23:24,841 INFO  com.github.fakemongo.FongoConnection - updateCommand() namespace:test-db.collectors updates:[com.mongodb.bulk.UpdateRequest@3961c19f]
+2019-06-05 17:23:24,876 INFO  com.github.fakemongo.FongoConnection - release()
+2019-06-05 17:23:24,888 INFO  com.github.fakemongo.FongoConnection - updateCommand() namespace:test-db.team updates:[com.mongodb.bulk.UpdateRequest@9935b01]
+2019-06-05 17:23:24,891 INFO  com.github.fakemongo.FongoConnection - release()
+2019-06-05 17:23:24,893 INFO  com.github.fakemongo.FongoConnection - updateCommand() namespace:test-db.team updates:[com.mongodb.bulk.UpdateRequest@3e491e95]
+2019-06-05 17:23:24,895 INFO  com.github.fakemongo.FongoConnection - release()
+2019-06-05 17:23:24,905 INFO  com.github.fakemongo.FongoConnection - updateCommand() namespace:test-db.scope updates:[com.mongodb.bulk.UpdateRequest@57d2623b]
+2019-06-05 17:23:24,911 INFO  com.github.fakemongo.FongoConnection - release()
+2019-06-05 17:23:25,026 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2019-06-05 17:23:25,027 INFO  c.c.d.collector.CollectorTask - https://jira.com/
+2019-06-05 17:23:25,028 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2019-06-05 17:23:25,031 INFO  c.c.d.collector.FeatureCollectorTask - JIRA Collector is set to work in Board mode
+2019-06-05 17:23:25,032 INFO  c.c.d.collector.FeatureCollectorTask - Hours since last run = 3481. Collector is about to refresh Team/Board information
+2019-06-05 17:23:25,035 INFO  c.c.d.collector.DefaultJiraClient - JIRA Collector collected 4 boards
+2019-06-05 17:23:25,040 INFO  c.c.d.collector.FeatureCollectorTask - Adding Board:8-TtestBoard scrum 1
+2019-06-05 17:23:25,045 INFO  c.c.d.collector.FeatureCollectorTask - Adding Board:16-TestBoard scrum  2
+2019-06-05 17:23:25,054 INFO  c.c.d.collector.FeatureCollectorTask - Adding Board:17-TestBoard kanban 1
+2019-06-05 17:23:25,058 INFO  c.c.d.collector.FeatureCollectorTask - Adding Board:125-TestBoard kanban 2
+2019-06-05 17:23:25,062 INFO  c.c.d.collector.CollectorTask - Board Data Collected. Added  4        0s
+2019-06-05 17:23:25,074 INFO  c.c.d.collector.FeatureCollectorTask - Deleting Board:998-TestBoard kanban 1
+2019-06-05 17:23:25,075 INFO  c.c.d.collector.FeatureCollectorTask - Deleting Board:999-TestBoard kanban 3
+2019-06-05 17:23:25,078 INFO  c.c.d.collector.CollectorTask - Board Data Collected. Deleted  2        0s
+2019-06-05 17:23:25,081 INFO  c.c.d.collector.FeatureCollectorTask - Adding :11500-Project 2
+2019-06-05 17:23:25,086 INFO  com.github.fakemongo.FongoConnection - updateCommand() namespace:test-db.scope updates:[com.mongodb.bulk.UpdateRequest@10463c5]
+2019-06-05 17:23:25,092 INFO  com.github.fakemongo.FongoConnection - release()
+2019-06-05 17:23:25,093 INFO  c.c.d.collector.FeatureCollectorTask - Adding :13700-Project 1
+2019-06-05 17:23:25,099 INFO  com.github.fakemongo.FongoConnection - updateCommand() namespace:test-db.scope updates:[com.mongodb.bulk.UpdateRequest@77cf68c6]
+2019-06-05 17:23:25,103 INFO  com.github.fakemongo.FongoConnection - release()
+2019-06-05 17:23:25,104 INFO  c.c.d.collector.CollectorTask - Project Data Collected  2        0s
+2019-06-05 17:23:25,118 INFO  c.c.d.collector.FeatureCollectorTask - Deleting :137001-Project 3
+2019-06-05 17:23:25,126 INFO  c.c.d.collector.CollectorTask - Project Data Collected. Deleted  1        0s
+2019-06-05 17:23:25,136 INFO  c.c.d.collector.FeatureCollectorTask - Refreshing issues for Board ID:8
+2019-06-05 17:23:25,150 INFO  c.c.d.collector.FeatureCollectorTask - Refreshing issues for Board ID:16
+2019-06-05 17:23:25,153 INFO  c.c.d.collector.FeatureCollectorTask - Refreshing issues for Board ID:17
+2019-06-05 17:23:25,156 INFO  c.c.d.collector.FeatureCollectorTask - Refreshing issues for Board ID:125
+2019-06-05 17:23:25,159 INFO  c.c.d.collector.CollectorTask - Board Issues Refreshed           0s
+2019-06-05 17:23:25,172 INFO  com.github.fakemongo.FongoConnection - updateCommand() namespace:test-db.collectors updates:[com.mongodb.bulk.UpdateRequest@145f9b27]
+2019-06-05 17:23:25,177 INFO  com.github.fakemongo.FongoConnection - release()
+2019-06-05 17:23:25,178 INFO  c.c.d.collector.FeatureCollectorTask - Collected 4 teams and 2 projects
+2019-06-05 17:23:25,186 INFO  c.c.d.collector.FeatureCollectorTask - Collecting 1 of 4 boards.
+2019-06-05 17:23:25,189 INFO  c.c.d.collector.CollectorTask - Story Data Collected since 1969-12-31T19:00 0        0s
+2019-06-05 17:23:25,192 INFO  com.github.fakemongo.FongoConnection - updateCommand() namespace:test-db.team updates:[com.mongodb.bulk.UpdateRequest@5eff0651]
+2019-06-05 17:23:25,195 INFO  com.github.fakemongo.FongoConnection - release()
+2019-06-05 17:23:25,196 INFO  c.c.d.collector.FeatureCollectorTask - Collecting 2 of 4 boards.
+2019-06-05 17:23:25,199 INFO  c.c.d.collector.CollectorTask - Story Data Collected since 1969-12-31T19:00 0        0s
+2019-06-05 17:23:25,200 INFO  com.github.fakemongo.FongoConnection - updateCommand() namespace:test-db.team updates:[com.mongodb.bulk.UpdateRequest@837ef79]
+2019-06-05 17:23:25,203 INFO  com.github.fakemongo.FongoConnection - release()
+2019-06-05 17:23:25,205 INFO  c.c.d.collector.FeatureCollectorTask - Collecting 3 of 4 boards.
+2019-06-05 17:23:25,206 INFO  c.c.d.collector.CollectorTask - Story Data Collected since 1969-12-31T19:00 0        0s
+2019-06-05 17:23:25,208 INFO  com.github.fakemongo.FongoConnection - updateCommand() namespace:test-db.team updates:[com.mongodb.bulk.UpdateRequest@4ec68825]
+2019-06-05 17:23:25,222 INFO  com.github.fakemongo.FongoConnection - release()
+2019-06-05 17:23:25,223 INFO  c.c.d.collector.FeatureCollectorTask - Collecting 4 of 4 boards.
+2019-06-05 17:23:25,225 INFO  c.c.d.collector.CollectorTask - Story Data Collected since 1969-12-31T19:00 0        0s
+2019-06-05 17:23:25,227 INFO  com.github.fakemongo.FongoConnection - updateCommand() namespace:test-db.team updates:[com.mongodb.bulk.UpdateRequest@2628b479]
+2019-06-05 17:23:25,234 INFO  com.github.fakemongo.FongoConnection - release()
+2019-06-05 17:23:25,235 INFO  c.c.d.collector.CollectorTask - Finished                         0s
+2019-06-05 17:23:25,268 INFO  com.github.fakemongo.FongoConnection - updateCommand() namespace:test-db.collectors updates:[com.mongodb.bulk.UpdateRequest@37389825]
+2019-06-05 17:23:25,272 INFO  com.github.fakemongo.FongoConnection - release()
+2019-06-05 17:23:25,285 INFO  com.github.fakemongo.FongoConnection - updateCommand() namespace:test-db.team updates:[com.mongodb.bulk.UpdateRequest@4d45b947]
+2019-06-05 17:23:25,288 INFO  com.github.fakemongo.FongoConnection - release()
+2019-06-05 17:23:25,290 INFO  com.github.fakemongo.FongoConnection - updateCommand() namespace:test-db.team updates:[com.mongodb.bulk.UpdateRequest@2e2d57ea]
+2019-06-05 17:23:25,293 INFO  com.github.fakemongo.FongoConnection - release()
+2019-06-05 17:23:25,307 INFO  com.github.fakemongo.FongoConnection - updateCommand() namespace:test-db.scope updates:[com.mongodb.bulk.UpdateRequest@316a71b7]
+2019-06-05 17:23:25,314 INFO  com.github.fakemongo.FongoConnection - release()
+2019-06-05 17:23:25,377 INFO  c.c.d.collector.FeatureCollectorTask - Collecting 1 of 6 boards.
+2019-06-05 17:23:25,382 INFO  c.c.d.collector.CollectorTask - Story Data Collected since 2019-06-05T17:23:25.188 0        0s
+2019-06-05 17:23:25,384 INFO  com.github.fakemongo.FongoConnection - updateCommand() namespace:test-db.team updates:[com.mongodb.bulk.UpdateRequest@42602e0f]
+2019-06-05 17:23:25,386 INFO  com.github.fakemongo.FongoConnection - release()
+2019-06-05 17:23:25,387 INFO  c.c.d.collector.FeatureCollectorTask - Collecting 2 of 6 boards.
+2019-06-05 17:23:25,390 INFO  c.c.d.collector.CollectorTask - Story Data Collected since 2019-06-05T17:23:25.196 0        0s
+2019-06-05 17:23:25,391 INFO  com.github.fakemongo.FongoConnection - updateCommand() namespace:test-db.team updates:[com.mongodb.bulk.UpdateRequest@220f2885]
+2019-06-05 17:23:25,393 INFO  com.github.fakemongo.FongoConnection - release()
+2019-06-05 17:23:25,395 INFO  c.c.d.collector.FeatureCollectorTask - Collecting 3 of 6 boards.
+2019-06-05 17:23:25,402 INFO  c.c.d.collector.CollectorTask - Story Data Collected since 2019-06-05T17:23:25.205 0        0s
+2019-06-05 17:23:25,404 INFO  com.github.fakemongo.FongoConnection - updateCommand() namespace:test-db.team updates:[com.mongodb.bulk.UpdateRequest@66d9a929]
+2019-06-05 17:23:25,408 INFO  com.github.fakemongo.FongoConnection - release()
+2019-06-05 17:23:25,410 INFO  c.c.d.collector.FeatureCollectorTask - Collecting 4 of 6 boards.
+2019-06-05 17:23:25,417 INFO  c.c.d.collector.CollectorTask - Story Data Collected since 2019-06-05T17:23:25.224 0        0s
+2019-06-05 17:23:25,420 INFO  com.github.fakemongo.FongoConnection - updateCommand() namespace:test-db.team updates:[com.mongodb.bulk.UpdateRequest@4dc9b8c]
+2019-06-05 17:23:25,449 INFO  com.github.fakemongo.FongoConnection - release()
+2019-06-05 17:23:25,451 INFO  c.c.d.collector.FeatureCollectorTask - Collecting 5 of 6 boards.
+2019-06-05 17:23:25,453 INFO  c.c.d.collector.CollectorTask - Story Data Collected since 1969-12-31T19:00 0        0s
+2019-06-05 17:23:25,456 INFO  com.github.fakemongo.FongoConnection - updateCommand() namespace:test-db.team updates:[com.mongodb.bulk.UpdateRequest@478fdd4e]
+2019-06-05 17:23:25,459 INFO  com.github.fakemongo.FongoConnection - release()
+2019-06-05 17:23:25,460 INFO  c.c.d.collector.FeatureCollectorTask - Collecting 6 of 6 boards.
+2019-06-05 17:23:25,477 INFO  com.github.fakemongo.FongoConnection - updateCommand() namespace:test-db.feature updates:[com.mongodb.bulk.UpdateRequest@37a4fc71]
+2019-06-05 17:23:25,486 INFO  com.github.fakemongo.FongoConnection - release()
+2019-06-05 17:23:25,503 INFO  com.github.fakemongo.FongoConnection - updateCommand() namespace:test-db.feature updates:[com.mongodb.bulk.UpdateRequest@69fd1522]
+2019-06-05 17:23:25,510 INFO  com.github.fakemongo.FongoConnection - release()
+2019-06-05 17:23:25,511 INFO  c.c.d.collector.CollectorTask - Story Data Collected since 1969-12-31T19:00 1        0s
+2019-06-05 17:23:25,514 INFO  com.github.fakemongo.FongoConnection - updateCommand() namespace:test-db.team updates:[com.mongodb.bulk.UpdateRequest@41d294ff]
+2019-06-05 17:23:25,517 INFO  com.github.fakemongo.FongoConnection - release()
+2019-06-05 17:23:25,658 INFO  com.github.fakemongo.FongoConnection - updateCommand() namespace:test-db.collectors updates:[com.mongodb.bulk.UpdateRequest@3c4f0087]
+2019-06-05 17:23:25,661 INFO  com.github.fakemongo.FongoConnection - release()
+2019-06-05 17:23:25,672 INFO  com.github.fakemongo.FongoConnection - updateCommand() namespace:test-db.team updates:[com.mongodb.bulk.UpdateRequest@1f537655]
+2019-06-05 17:23:25,675 INFO  com.github.fakemongo.FongoConnection - release()
+2019-06-05 17:23:25,677 INFO  com.github.fakemongo.FongoConnection - updateCommand() namespace:test-db.team updates:[com.mongodb.bulk.UpdateRequest@25130f26]
+2019-06-05 17:23:25,681 INFO  com.github.fakemongo.FongoConnection - release()
+2019-06-05 17:23:25,694 INFO  com.github.fakemongo.FongoConnection - updateCommand() namespace:test-db.scope updates:[com.mongodb.bulk.UpdateRequest@344c09f1]
+2019-06-05 17:23:25,699 INFO  com.github.fakemongo.FongoConnection - release()
+2019-06-05 17:23:25,740 INFO  c.c.d.collector.FeatureCollectorTask - Collecting 1 of 6 boards.
+2019-06-05 17:23:25,747 INFO  c.c.d.collector.CollectorTask - Story Data Collected since 2019-06-05T17:23:25.378 0        0s
+2019-06-05 17:23:25,750 INFO  com.github.fakemongo.FongoConnection - updateCommand() namespace:test-db.team updates:[com.mongodb.bulk.UpdateRequest@74a65d54]
+2019-06-05 17:23:25,753 INFO  com.github.fakemongo.FongoConnection - release()
+2019-06-05 17:23:25,756 INFO  c.c.d.collector.FeatureCollectorTask - Collecting 2 of 6 boards.
+2019-06-05 17:23:25,764 INFO  c.c.d.collector.CollectorTask - Story Data Collected since 2019-06-05T17:23:25.389 0        0s
+2019-06-05 17:23:25,766 INFO  com.github.fakemongo.FongoConnection - updateCommand() namespace:test-db.team updates:[com.mongodb.bulk.UpdateRequest@49f116d9]
+2019-06-05 17:23:25,774 INFO  com.github.fakemongo.FongoConnection - release()
+2019-06-05 17:23:25,776 INFO  c.c.d.collector.FeatureCollectorTask - Collecting 3 of 6 boards.
+2019-06-05 17:23:25,780 INFO  c.c.d.collector.CollectorTask - Story Data Collected since 2019-06-05T17:23:25.399 0        0s
+2019-06-05 17:23:25,787 INFO  com.github.fakemongo.FongoConnection - updateCommand() namespace:test-db.team updates:[com.mongodb.bulk.UpdateRequest@1d268d97]
+2019-06-05 17:23:25,789 INFO  com.github.fakemongo.FongoConnection - release()
+2019-06-05 17:23:25,790 INFO  c.c.d.collector.FeatureCollectorTask - Collecting 4 of 6 boards.
+2019-06-05 17:23:25,793 INFO  c.c.d.collector.CollectorTask - Story Data Collected since 2019-06-05T17:23:25.413 0        0s
+2019-06-05 17:23:25,795 INFO  com.github.fakemongo.FongoConnection - updateCommand() namespace:test-db.team updates:[com.mongodb.bulk.UpdateRequest@76e87fa0]
+2019-06-05 17:23:25,799 INFO  com.github.fakemongo.FongoConnection - release()
+2019-06-05 17:23:25,800 INFO  c.c.d.collector.FeatureCollectorTask - Collecting 5 of 6 boards.
+2019-06-05 17:23:25,804 INFO  c.c.d.collector.CollectorTask - Story Data Collected since 1969-12-31T19:00 0        0s
+2019-06-05 17:23:25,806 INFO  com.github.fakemongo.FongoConnection - updateCommand() namespace:test-db.team updates:[com.mongodb.bulk.UpdateRequest@3062c0d4]
+2019-06-05 17:23:25,808 INFO  com.github.fakemongo.FongoConnection - release()
+2019-06-05 17:23:25,809 INFO  c.c.d.collector.FeatureCollectorTask - Collecting 6 of 6 boards.
+2019-06-05 17:23:25,833 INFO  com.github.fakemongo.FongoConnection - updateCommand() namespace:test-db.feature updates:[com.mongodb.bulk.UpdateRequest@6d275f8e]
+2019-06-05 17:23:25,841 INFO  com.github.fakemongo.FongoConnection - release()
+2019-06-05 17:23:25,847 INFO  com.github.fakemongo.FongoConnection - updateCommand() namespace:test-db.feature updates:[com.mongodb.bulk.UpdateRequest@182ce28a]
+2019-06-05 17:23:25,854 INFO  com.github.fakemongo.FongoConnection - release()
+2019-06-05 17:23:25,855 INFO  c.c.d.collector.CollectorTask - Story Data Collected since 1969-12-31T19:00 1        0s
+2019-06-05 17:23:25,859 INFO  com.github.fakemongo.FongoConnection - updateCommand() namespace:test-db.team updates:[com.mongodb.bulk.UpdateRequest@79b82278]
+2019-06-05 17:23:25,864 INFO  com.github.fakemongo.FongoConnection - release()
+2019-06-05 17:23:26,043 INFO  com.github.fakemongo.FongoConnection - updateCommand() namespace:test-db.collectors updates:[com.mongodb.bulk.UpdateRequest@30c338c8]
+2019-06-05 17:23:26,046 INFO  com.github.fakemongo.FongoConnection - release()
+2019-06-05 17:23:26,052 INFO  com.github.fakemongo.FongoConnection - updateCommand() namespace:test-db.team updates:[com.mongodb.bulk.UpdateRequest@8d0774a]
+2019-06-05 17:23:26,054 INFO  com.github.fakemongo.FongoConnection - release()
+2019-06-05 17:23:26,056 INFO  com.github.fakemongo.FongoConnection - updateCommand() namespace:test-db.team updates:[com.mongodb.bulk.UpdateRequest@a3b417]
+2019-06-05 17:23:26,058 INFO  com.github.fakemongo.FongoConnection - release()
+2019-06-05 17:23:26,063 INFO  com.github.fakemongo.FongoConnection - updateCommand() namespace:test-db.scope updates:[com.mongodb.bulk.UpdateRequest@6a15d338]
+2019-06-05 17:23:26,065 INFO  com.github.fakemongo.FongoConnection - release()
+2019-06-05 17:23:26,108 INFO  c.c.d.collector.FeatureCollectorTask - Collecting 1 of 6 boards.
+2019-06-05 17:23:26,110 INFO  c.c.d.collector.CollectorTask - Story Data Collected since 2019-06-05T17:23:25.741 0        0s
+2019-06-05 17:23:26,114 INFO  com.github.fakemongo.FongoConnection - updateCommand() namespace:test-db.team updates:[com.mongodb.bulk.UpdateRequest@4339a3ca]
+2019-06-05 17:23:26,117 INFO  com.github.fakemongo.FongoConnection - release()
+2019-06-05 17:23:26,121 INFO  c.c.d.collector.FeatureCollectorTask - Collecting 2 of 6 boards.
+2019-06-05 17:23:26,124 INFO  c.c.d.collector.CollectorTask - Story Data Collected since 2019-06-05T17:23:25.757 0        0s
+2019-06-05 17:23:26,130 INFO  com.github.fakemongo.FongoConnection - updateCommand() namespace:test-db.team updates:[com.mongodb.bulk.UpdateRequest@4858e6c0]
+2019-06-05 17:23:26,132 INFO  com.github.fakemongo.FongoConnection - release()
+2019-06-05 17:23:26,134 INFO  c.c.d.collector.FeatureCollectorTask - Collecting 3 of 6 boards.
+2019-06-05 17:23:26,135 INFO  c.c.d.collector.CollectorTask - Story Data Collected since 2019-06-05T17:23:25.777 0        0s
+2019-06-05 17:23:26,137 INFO  com.github.fakemongo.FongoConnection - updateCommand() namespace:test-db.team updates:[com.mongodb.bulk.UpdateRequest@55c6e0d0]
+2019-06-05 17:23:26,139 INFO  com.github.fakemongo.FongoConnection - release()
+2019-06-05 17:23:26,140 INFO  c.c.d.collector.FeatureCollectorTask - Collecting 4 of 6 boards.
+2019-06-05 17:23:26,142 INFO  c.c.d.collector.CollectorTask - Story Data Collected since 2019-06-05T17:23:25.792 0        0s
+2019-06-05 17:23:26,144 INFO  com.github.fakemongo.FongoConnection - updateCommand() namespace:test-db.team updates:[com.mongodb.bulk.UpdateRequest@118e6543]
+2019-06-05 17:23:26,147 INFO  com.github.fakemongo.FongoConnection - release()
+2019-06-05 17:23:26,148 INFO  c.c.d.collector.FeatureCollectorTask - Collecting 5 of 6 boards.
+2019-06-05 17:23:26,151 INFO  c.c.d.collector.CollectorTask - Story Data Collected since 1969-12-31T19:00 0        0s
+2019-06-05 17:23:26,153 INFO  com.github.fakemongo.FongoConnection - updateCommand() namespace:test-db.team updates:[com.mongodb.bulk.UpdateRequest@1f27b34b]
+2019-06-05 17:23:26,155 INFO  com.github.fakemongo.FongoConnection - release()
+2019-06-05 17:23:26,156 INFO  c.c.d.collector.FeatureCollectorTask - Collecting 6 of 6 boards.
+2019-06-05 17:23:26,173 INFO  com.github.fakemongo.FongoConnection - updateCommand() namespace:test-db.feature updates:[com.mongodb.bulk.UpdateRequest@72e48a21]
+2019-06-05 17:23:26,178 INFO  com.github.fakemongo.FongoConnection - release()
+2019-06-05 17:23:26,188 INFO  com.github.fakemongo.FongoConnection - updateCommand() namespace:test-db.feature updates:[com.mongodb.bulk.UpdateRequest@139eed49]
+2019-06-05 17:23:26,198 INFO  com.github.fakemongo.FongoConnection - release()
+2019-06-05 17:23:26,199 INFO  c.c.d.collector.CollectorTask - Story Data Collected since 1969-12-31T19:00 1        0s
+2019-06-05 17:23:26,201 INFO  com.github.fakemongo.FongoConnection - updateCommand() namespace:test-db.team updates:[com.mongodb.bulk.UpdateRequest@45fdd899]
+2019-06-05 17:23:26,207 INFO  com.github.fakemongo.FongoConnection - release()
+2019-06-05 17:23:26,390 INFO  com.github.fakemongo.FongoConnection - updateCommand() namespace:test-db.collectors updates:[com.mongodb.bulk.UpdateRequest@4ddecf15]
+2019-06-05 17:23:26,394 INFO  com.github.fakemongo.FongoConnection - release()
+2019-06-05 17:23:26,404 INFO  com.github.fakemongo.FongoConnection - updateCommand() namespace:test-db.team updates:[com.mongodb.bulk.UpdateRequest@70691683]
+2019-06-05 17:23:26,407 INFO  com.github.fakemongo.FongoConnection - release()
+2019-06-05 17:23:26,408 INFO  com.github.fakemongo.FongoConnection - updateCommand() namespace:test-db.team updates:[com.mongodb.bulk.UpdateRequest@875cfe4]
+2019-06-05 17:23:26,410 INFO  com.github.fakemongo.FongoConnection - release()
+2019-06-05 17:23:26,421 INFO  com.github.fakemongo.FongoConnection - updateCommand() namespace:test-db.scope updates:[com.mongodb.bulk.UpdateRequest@645494c5]
+2019-06-05 17:23:26,423 INFO  com.github.fakemongo.FongoConnection - release()
+2019-06-05 17:23:26,451 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2019-06-05 17:23:26,452 INFO  c.c.d.collector.CollectorTask - https://jira.com/
+2019-06-05 17:23:26,453 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2019-06-05 17:23:26,454 INFO  c.c.d.collector.FeatureCollectorTask - JIRA Collector is set to work in Board mode
+2019-06-05 17:23:26,454 INFO  c.c.d.collector.FeatureCollectorTask - Hours since last run = 3481. Collector is about to refresh Team/Board information
+2019-06-05 17:23:26,455 INFO  c.c.d.collector.DefaultJiraClient - JIRA Collector collected 4 boards
+2019-06-05 17:23:26,456 INFO  c.c.d.collector.FeatureCollectorTask - Adding Board:8-TtestBoard scrum 1
+2019-06-05 17:23:26,461 INFO  com.github.fakemongo.FongoConnection - updateCommand() namespace:test-db.team updates:[com.mongodb.bulk.UpdateRequest@5fc9593d]
+2019-06-05 17:23:26,474 INFO  com.github.fakemongo.FongoConnection - release()
+2019-06-05 17:23:26,475 INFO  c.c.d.collector.FeatureCollectorTask - Adding Board:16-TestBoard scrum  2
+2019-06-05 17:23:26,478 INFO  com.github.fakemongo.FongoConnection - updateCommand() namespace:test-db.team updates:[com.mongodb.bulk.UpdateRequest@672c8149]
+2019-06-05 17:23:26,482 INFO  com.github.fakemongo.FongoConnection - release()
+2019-06-05 17:23:26,483 INFO  c.c.d.collector.FeatureCollectorTask - Adding Board:17-TestBoard kanban 1
+2019-06-05 17:23:26,489 INFO  com.github.fakemongo.FongoConnection - updateCommand() namespace:test-db.team updates:[com.mongodb.bulk.UpdateRequest@418068a7]
+2019-06-05 17:23:26,491 INFO  com.github.fakemongo.FongoConnection - release()
+2019-06-05 17:23:26,492 INFO  c.c.d.collector.FeatureCollectorTask - Adding Board:125-TestBoard kanban 2
+2019-06-05 17:23:26,498 INFO  com.github.fakemongo.FongoConnection - updateCommand() namespace:test-db.team updates:[com.mongodb.bulk.UpdateRequest@1b23eee]
+2019-06-05 17:23:26,500 INFO  com.github.fakemongo.FongoConnection - release()
+2019-06-05 17:23:26,503 INFO  c.c.d.collector.CollectorTask - Board Data Collected. Added  4        0s
+2019-06-05 17:23:26,507 INFO  c.c.d.collector.FeatureCollectorTask - Deleting Board:998-TestBoard kanban 1
+2019-06-05 17:23:26,508 INFO  c.c.d.collector.FeatureCollectorTask - Deleting Board:999-TestBoard kanban 3
+2019-06-05 17:23:26,511 INFO  c.c.d.collector.CollectorTask - Board Data Collected. Deleted  2        0s
+2019-06-05 17:23:26,514 INFO  c.c.d.collector.FeatureCollectorTask - Adding :11500-Project 2
+2019-06-05 17:23:26,518 INFO  com.github.fakemongo.FongoConnection - updateCommand() namespace:test-db.scope updates:[com.mongodb.bulk.UpdateRequest@14a78f54]
+2019-06-05 17:23:26,522 INFO  com.github.fakemongo.FongoConnection - release()
+2019-06-05 17:23:26,525 INFO  c.c.d.collector.FeatureCollectorTask - Adding :13700-Project 1
+2019-06-05 17:23:26,529 INFO  com.github.fakemongo.FongoConnection - updateCommand() namespace:test-db.scope updates:[com.mongodb.bulk.UpdateRequest@17826240]
+2019-06-05 17:23:26,532 INFO  com.github.fakemongo.FongoConnection - release()
+2019-06-05 17:23:26,534 INFO  c.c.d.collector.CollectorTask - Project Data Collected  2        0s
+2019-06-05 17:23:26,541 INFO  c.c.d.collector.FeatureCollectorTask - Deleting :137001-Project 3
+2019-06-05 17:23:26,546 INFO  c.c.d.collector.CollectorTask - Project Data Collected. Deleted  1        0s
+2019-06-05 17:23:26,551 INFO  com.github.fakemongo.FongoConnection - updateCommand() namespace:test-db.collectors updates:[com.mongodb.bulk.UpdateRequest@5585f547]
+2019-06-05 17:23:26,555 INFO  com.github.fakemongo.FongoConnection - release()
+2019-06-05 17:23:26,557 INFO  c.c.d.collector.FeatureCollectorTask - Collected 4 teams and 2 projects
+2019-06-05 17:23:26,565 INFO  c.c.d.collector.FeatureCollectorTask - Collecting 1 of 4 boards.
+2019-06-05 17:23:26,567 INFO  c.c.d.collector.CollectorTask - Story Data Collected since 1969-12-31T19:00 0        0s
+2019-06-05 17:23:26,568 INFO  com.github.fakemongo.FongoConnection - updateCommand() namespace:test-db.team updates:[com.mongodb.bulk.UpdateRequest@4550e457]
+2019-06-05 17:23:26,571 INFO  com.github.fakemongo.FongoConnection - release()
+2019-06-05 17:23:26,572 INFO  c.c.d.collector.FeatureCollectorTask - Collecting 2 of 4 boards.
+2019-06-05 17:23:26,574 INFO  c.c.d.collector.CollectorTask - Story Data Collected since 1969-12-31T19:00 0        0s
+2019-06-05 17:23:26,576 INFO  com.github.fakemongo.FongoConnection - updateCommand() namespace:test-db.team updates:[com.mongodb.bulk.UpdateRequest@6da51e86]
+2019-06-05 17:23:26,580 INFO  com.github.fakemongo.FongoConnection - release()
+2019-06-05 17:23:26,581 INFO  c.c.d.collector.FeatureCollectorTask - Collecting 3 of 4 boards.
+2019-06-05 17:23:26,588 INFO  c.c.d.collector.CollectorTask - Story Data Collected since 1969-12-31T19:00 0        0s
+2019-06-05 17:23:26,590 INFO  com.github.fakemongo.FongoConnection - updateCommand() namespace:test-db.team updates:[com.mongodb.bulk.UpdateRequest@6931e110]
+2019-06-05 17:23:26,592 INFO  com.github.fakemongo.FongoConnection - release()
+2019-06-05 17:23:26,593 INFO  c.c.d.collector.FeatureCollectorTask - Collecting 4 of 4 boards.
+2019-06-05 17:23:26,597 INFO  c.c.d.collector.CollectorTask - Story Data Collected since 1969-12-31T19:00 0        0s
+2019-06-05 17:23:26,599 INFO  com.github.fakemongo.FongoConnection - updateCommand() namespace:test-db.team updates:[com.mongodb.bulk.UpdateRequest@13e40ebc]
+2019-06-05 17:23:26,605 INFO  com.github.fakemongo.FongoConnection - release()
+2019-06-05 17:23:26,608 INFO  c.c.d.collector.CollectorTask - Finished                         0s
+2019-06-05 17:23:26,647 INFO  com.github.fakemongo.FongoConnection - updateCommand() namespace:test-db.collectors updates:[com.mongodb.bulk.UpdateRequest@14404749]
+2019-06-05 17:23:26,650 INFO  com.github.fakemongo.FongoConnection - release()
+2019-06-05 17:23:26,658 INFO  com.github.fakemongo.FongoConnection - updateCommand() namespace:test-db.team updates:[com.mongodb.bulk.UpdateRequest@729f1db0]
+2019-06-05 17:23:26,660 INFO  com.github.fakemongo.FongoConnection - release()
+2019-06-05 17:23:26,664 INFO  com.github.fakemongo.FongoConnection - updateCommand() namespace:test-db.team updates:[com.mongodb.bulk.UpdateRequest@41bd7cb1]
+2019-06-05 17:23:26,665 INFO  com.github.fakemongo.FongoConnection - release()
+2019-06-05 17:23:26,724 INFO  com.github.fakemongo.FongoConnection - updateCommand() namespace:test-db.scope updates:[com.mongodb.bulk.UpdateRequest@318fdc27]
+2019-06-05 17:23:26,726 INFO  com.github.fakemongo.FongoConnection - release()
+2019-06-05 17:23:26,750 INFO  c.c.d.collector.DefaultJiraClient - JIRA Collector collected 1 boards
+2019-06-05 17:23:26,752 INFO  c.c.d.collector.FeatureCollectorTask - Adding Board:999-TestBoard kanban 3
+2019-06-05 17:23:26,755 INFO  com.github.fakemongo.FongoConnection - updateCommand() namespace:test-db.team updates:[com.mongodb.bulk.UpdateRequest@27e3bf50]
+2019-06-05 17:23:26,758 INFO  com.github.fakemongo.FongoConnection - release()
+2019-06-05 17:23:26,759 INFO  c.c.d.collector.CollectorTask - Board Data Collected. Added  1        0s
+2019-06-05 17:23:26,770 INFO  c.c.d.collector.FeatureCollectorTask - Deleting Board:125-TestBoard kanban 2
+2019-06-05 17:23:26,771 INFO  c.c.d.collector.FeatureCollectorTask - Deleting Board:16-TestBoard scrum  2
+2019-06-05 17:23:26,775 INFO  c.c.d.collector.FeatureCollectorTask - Deleting Board:17-TestBoard kanban 1
+2019-06-05 17:23:26,776 INFO  c.c.d.collector.FeatureCollectorTask - Deleting Board:8-TtestBoard scrum 1
+2019-06-05 17:23:26,776 INFO  c.c.d.collector.FeatureCollectorTask - Deleting Board:998-TestBoard kanban 1
+2019-06-05 17:23:26,784 INFO  c.c.d.collector.CollectorTask - Board Data Collected. Deleted  5        0s
+2019-06-05 17:23:26,789 INFO  o.s.c.s.GenericApplicationContext - Closing org.springframework.context.support.GenericApplicationContext@6c84fdaa: startup date [Wed Jun 05 17:23:16 EDT 2019]; root of context hierarchy
+2019-06-05 17:23:26,830 INFO  com.github.fakemongo.FongoConnection - updateCommand() namespace:test-db.collectors updates:[com.mongodb.bulk.UpdateRequest@2d9b4481]
+2019-06-05 17:23:26,833 INFO  com.github.fakemongo.FongoConnection - release()

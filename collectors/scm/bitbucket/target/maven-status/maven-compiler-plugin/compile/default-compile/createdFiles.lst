@@ -1,0 +1,17 @@
+com\capitalone\dashboard\collector\GitCollectorTask.class
+com\capitalone\dashboard\bitbucketapi\BitbucketApiUrlBuilder.class
+com\capitalone\dashboard\collector\PageMetadata.class
+com\capitalone\dashboard\config\SpringConfig.class
+com\capitalone\dashboard\repository\GitRepoRepository.class
+com\capitalone\dashboard\collector\DefaultBitbucketServerClient.class
+com\capitalone\dashboard\Application.class
+com\capitalone\dashboard\bitbucketapi\BitbucketUrlParser$BitbucketUrlParts.class
+com\capitalone\dashboard\bitbucketapi\BitbucketUrlParser.class
+com\capitalone\dashboard\collector\DefaultBitbucketCloudClient.class
+com\capitalone\dashboard\collector\JSONParserUtils.class
+com\capitalone\dashboard\collector\GitClient.class
+com\capitalone\dashboard\collector\GitSettings.class
+com\capitalone\dashboard\collector\SCMHttpRestClient.class
+com\capitalone\dashboard\collector\RestOperationsSupplier.class
+com\capitalone\dashboard\collector\PullRequestCollector.class
+com\capitalone\dashboard\model\GitRepo.class

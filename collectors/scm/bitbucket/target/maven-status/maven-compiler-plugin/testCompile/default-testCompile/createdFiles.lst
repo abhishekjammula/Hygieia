@@ -1,0 +1,9 @@
+com\capitalone\dashboard\bitbucketapi\BitbucketUrlParserTest.class
+com\capitalone\dashboard\collector\DefaultBitbucketServerClientTest.class
+com\capitalone\dashboard\collector\JSONParserUtilsTest.class
+com\capitalone\dashboard\collector\JsonUtilsTest.class
+com\capitalone\dashboard\collector\SCMHttpRestClientTest.class
+com\capitalone\dashboard\bitbucketapi\BitbucketApiUrlBuilderTest.class
+com\capitalone\dashboard\collector\PullRequestCollectorTest.class
+com\capitalone\dashboard\model\GitRepoTests.class
+com\capitalone\dashboard\collector\PageMetadataTest.class

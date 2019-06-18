@@ -1,0 +1,86 @@
+2019-06-05 16:40:04,849 INFO  c.c.d.collector.DefaultGitHubClient - original url: http://mygithub.com/user/repo is redirected to new url: http://mygithub.com/user/redirectedrepo
+2019-06-05 16:40:04,872 ERROR c.c.d.collector.DefaultGitHubClient - null
+2019-06-05 16:40:07,996 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2019-06-05 16:40:07,997 INFO  c.c.d.collector.CollectorTask - Starting...
+2019-06-05 16:40:07,998 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2019-06-05 16:40:08,058 INFO  c.c.d.collector.GitHubCollectorTask - Starting collection: 1 of 1: http://current/tree/null
+2019-06-05 16:40:08,106 INFO  c.c.d.collector.GitHubCollectorTask - -- Saved Commits = 1
+2019-06-05 16:40:08,135 INFO  c.c.d.collector.CollectorTask - Repo Count              1        0s
+2019-06-05 16:40:08,136 INFO  c.c.d.collector.CollectorTask - New Commits             1        0s
+2019-06-05 16:40:08,136 INFO  c.c.d.collector.CollectorTask - New Pulls               0        0s
+2019-06-05 16:40:08,136 INFO  c.c.d.collector.CollectorTask - New Issues              0        0s
+2019-06-05 16:40:08,137 INFO  c.c.d.collector.CollectorTask - Finished                         0s
+2019-06-05 16:40:08,169 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2019-06-05 16:40:08,170 INFO  c.c.d.collector.CollectorTask - Starting...
+2019-06-05 16:40:08,170 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2019-06-05 16:40:08,172 INFO  c.c.d.collector.GitHubCollectorTask - Starting collection: 1 of 1: http://current/tree/null
+2019-06-05 16:40:08,175 INFO  c.c.d.collector.GitHubCollectorTask - -- Saved Commits = 1
+2019-06-05 16:40:08,177 INFO  c.c.d.collector.CollectorTask - Repo Count              1        0s
+2019-06-05 16:40:08,178 INFO  c.c.d.collector.CollectorTask - New Commits             1        0s
+2019-06-05 16:40:08,178 INFO  c.c.d.collector.CollectorTask - New Pulls               0        0s
+2019-06-05 16:40:08,179 INFO  c.c.d.collector.CollectorTask - New Issues              0        0s
+2019-06-05 16:40:08,180 INFO  c.c.d.collector.CollectorTask - Finished                         0s
+2019-06-05 16:40:08,205 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2019-06-05 16:40:08,205 INFO  c.c.d.collector.CollectorTask - Starting...
+2019-06-05 16:40:08,206 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2019-06-05 16:40:08,208 INFO  c.c.d.collector.GitHubCollectorTask - Starting collection: 1 of 1: http://current/tree/null
+2019-06-05 16:40:08,211 INFO  c.c.d.collector.GitHubCollectorTask - -- Saved Commits = 1
+2019-06-05 16:40:08,222 INFO  c.c.d.collector.GitHubCollectorTask - -- Saved issue:1
+2019-06-05 16:40:08,223 INFO  c.c.d.collector.CollectorTask - Repo Count              1        0s
+2019-06-05 16:40:08,224 INFO  c.c.d.collector.CollectorTask - New Commits             1        0s
+2019-06-05 16:40:08,225 INFO  c.c.d.collector.CollectorTask - New Pulls               0        0s
+2019-06-05 16:40:08,227 INFO  c.c.d.collector.CollectorTask - New Issues              1        0s
+2019-06-05 16:40:08,228 INFO  c.c.d.collector.CollectorTask - Finished                         0s
+2019-06-05 16:40:08,239 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2019-06-05 16:40:08,240 INFO  c.c.d.collector.CollectorTask - Starting...
+2019-06-05 16:40:08,241 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2019-06-05 16:40:08,244 INFO  c.c.d.collector.GitHubCollectorTask - Starting collection: 1 of 1: http://current/tree/null
+2019-06-05 16:40:08,252 INFO  c.c.d.collector.GitHubCollectorTask - -- Saved Commits = 1
+2019-06-05 16:40:08,255 INFO  c.c.d.collector.CollectorTask - Repo Count              1        0s
+2019-06-05 16:40:08,256 INFO  c.c.d.collector.CollectorTask - New Commits             1        0s
+2019-06-05 16:40:08,257 INFO  c.c.d.collector.CollectorTask - New Pulls               0        0s
+2019-06-05 16:40:08,258 INFO  c.c.d.collector.CollectorTask - New Issues              0        0s
+2019-06-05 16:40:08,260 INFO  c.c.d.collector.CollectorTask - Finished                         0s
+2019-06-05 17:25:54,903 INFO  c.c.d.collector.DefaultGitHubClient - original url: http://mygithub.com/user/repo is redirected to new url: http://mygithub.com/user/redirectedrepo
+2019-06-05 17:25:54,929 ERROR c.c.d.collector.DefaultGitHubClient - null
+2019-06-05 17:25:58,294 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2019-06-05 17:25:58,296 INFO  c.c.d.collector.CollectorTask - Starting...
+2019-06-05 17:25:58,297 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2019-06-05 17:25:58,384 INFO  c.c.d.collector.GitHubCollectorTask - Starting collection: 1 of 1: http://current/tree/null
+2019-06-05 17:25:58,445 INFO  c.c.d.collector.GitHubCollectorTask - -- Saved Commits = 1
+2019-06-05 17:25:58,492 INFO  c.c.d.collector.CollectorTask - Repo Count              1        0s
+2019-06-05 17:25:58,495 INFO  c.c.d.collector.CollectorTask - New Commits             1        0s
+2019-06-05 17:25:58,496 INFO  c.c.d.collector.CollectorTask - New Pulls               0        0s
+2019-06-05 17:25:58,518 INFO  c.c.d.collector.CollectorTask - New Issues              0        0s
+2019-06-05 17:25:58,522 INFO  c.c.d.collector.CollectorTask - Finished                         0s
+2019-06-05 17:25:58,593 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2019-06-05 17:25:58,596 INFO  c.c.d.collector.CollectorTask - Starting...
+2019-06-05 17:25:58,598 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2019-06-05 17:25:58,611 INFO  c.c.d.collector.GitHubCollectorTask - Starting collection: 1 of 1: http://current/tree/null
+2019-06-05 17:25:58,618 INFO  c.c.d.collector.GitHubCollectorTask - -- Saved Commits = 1
+2019-06-05 17:25:58,626 INFO  c.c.d.collector.CollectorTask - Repo Count              1        0s
+2019-06-05 17:25:58,627 INFO  c.c.d.collector.CollectorTask - New Commits             1        0s
+2019-06-05 17:25:58,630 INFO  c.c.d.collector.CollectorTask - New Pulls               0        0s
+2019-06-05 17:25:58,645 INFO  c.c.d.collector.CollectorTask - New Issues              0        0s
+2019-06-05 17:25:58,647 INFO  c.c.d.collector.CollectorTask - Finished                         0s
+2019-06-05 17:25:58,698 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2019-06-05 17:25:58,699 INFO  c.c.d.collector.CollectorTask - Starting...
+2019-06-05 17:25:58,700 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2019-06-05 17:25:58,705 INFO  c.c.d.collector.GitHubCollectorTask - Starting collection: 1 of 1: http://current/tree/null
+2019-06-05 17:25:58,707 INFO  c.c.d.collector.GitHubCollectorTask - -- Saved Commits = 1
+2019-06-05 17:25:58,724 INFO  c.c.d.collector.GitHubCollectorTask - -- Saved issue:1
+2019-06-05 17:25:58,726 INFO  c.c.d.collector.CollectorTask - Repo Count              1        0s
+2019-06-05 17:25:58,728 INFO  c.c.d.collector.CollectorTask - New Commits             1        0s
+2019-06-05 17:25:58,728 INFO  c.c.d.collector.CollectorTask - New Pulls               0        0s
+2019-06-05 17:25:58,732 INFO  c.c.d.collector.CollectorTask - New Issues              1        0s
+2019-06-05 17:25:58,733 INFO  c.c.d.collector.CollectorTask - Finished                         0s
+2019-06-05 17:25:58,753 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2019-06-05 17:25:58,754 INFO  c.c.d.collector.CollectorTask - Starting...
+2019-06-05 17:25:58,755 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2019-06-05 17:25:58,794 INFO  c.c.d.collector.GitHubCollectorTask - Starting collection: 1 of 1: http://current/tree/null
+2019-06-05 17:25:58,803 INFO  c.c.d.collector.GitHubCollectorTask - -- Saved Commits = 1
+2019-06-05 17:25:58,807 INFO  c.c.d.collector.CollectorTask - Repo Count              1        0s
+2019-06-05 17:25:58,808 INFO  c.c.d.collector.CollectorTask - New Commits             1        0s
+2019-06-05 17:25:58,810 INFO  c.c.d.collector.CollectorTask - New Pulls               0        0s
+2019-06-05 17:25:58,812 INFO  c.c.d.collector.CollectorTask - New Issues              0        0s
+2019-06-05 17:25:58,813 INFO  c.c.d.collector.CollectorTask - Finished                         0s

@@ -1,0 +1,22 @@
+2019-06-05 16:38:36,240 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2019-06-05 16:38:36,250 INFO  c.c.d.collector.CollectorTask - Starting...
+2019-06-05 16:38:36,250 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2019-06-05 16:38:36,404 INFO  c.c.d.collector.CollectorTask - Issues Added/Updated    1        0s
+2019-06-05 16:38:36,405 INFO  c.c.d.collector.CollectorTask - Issues Deleted          1        0s
+2019-06-05 16:38:36,441 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2019-06-05 16:38:36,442 INFO  c.c.d.collector.CollectorTask - Starting...
+2019-06-05 16:38:36,444 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2019-06-05 16:38:36,447 ERROR c.c.d.collector.FeatureCollectorTask - null
+2019-06-05 16:38:36,448 INFO  c.c.d.collector.CollectorTask - Issues Added/Updated    0        0s
+2019-06-05 16:38:36,449 INFO  c.c.d.collector.CollectorTask - Issues Deleted          0        0s
+2019-06-05 17:24:16,903 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2019-06-05 17:24:16,917 INFO  c.c.d.collector.CollectorTask - Starting...
+2019-06-05 17:24:16,917 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2019-06-05 17:24:17,163 INFO  c.c.d.collector.CollectorTask - Issues Added/Updated    1        0s
+2019-06-05 17:24:17,165 INFO  c.c.d.collector.CollectorTask - Issues Deleted          1        0s
+2019-06-05 17:24:17,225 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2019-06-05 17:24:17,226 INFO  c.c.d.collector.CollectorTask - Starting...
+2019-06-05 17:24:17,232 INFO  c.c.d.collector.CollectorTask - -----------------------------------
+2019-06-05 17:24:17,239 ERROR c.c.d.collector.FeatureCollectorTask - null
+2019-06-05 17:24:17,241 INFO  c.c.d.collector.CollectorTask - Issues Added/Updated    0        0s
+2019-06-05 17:24:17,243 INFO  c.c.d.collector.CollectorTask - Issues Deleted          0        0s

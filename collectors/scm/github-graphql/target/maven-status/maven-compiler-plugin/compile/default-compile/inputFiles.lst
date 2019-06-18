@@ -1,0 +1,15 @@
+C:\Users\abijja2\Desktop\git_workspace\Hygieia\collectors\scm\github-graphql\src\main\java\com\capitalone\dashboard\model\CollectionMode.java
+C:\Users\abijja2\Desktop\git_workspace\Hygieia\collectors\scm\github-graphql\src\main\java\com\capitalone\dashboard\Application.java
+C:\Users\abijja2\Desktop\git_workspace\Hygieia\collectors\scm\github-graphql\src\main\java\com\capitalone\dashboard\collector\GitHubClient.java
+C:\Users\abijja2\Desktop\git_workspace\Hygieia\collectors\scm\github-graphql\src\main\java\com\capitalone\dashboard\model\MergeEvent.java
+C:\Users\abijja2\Desktop\git_workspace\Hygieia\collectors\scm\github-graphql\src\main\java\com\capitalone\dashboard\collector\RestOperationsSupplier.java
+C:\Users\abijja2\Desktop\git_workspace\Hygieia\collectors\scm\github-graphql\src\main\java\com\capitalone\dashboard\model\GitHubPaging.java
+C:\Users\abijja2\Desktop\git_workspace\Hygieia\collectors\scm\github-graphql\src\main\java\com\capitalone\dashboard\model\GitHubRepo.java
+C:\Users\abijja2\Desktop\git_workspace\Hygieia\collectors\scm\github-graphql\src\main\java\com\capitalone\dashboard\model\GitHubGraphQLQuery.java
+C:\Users\abijja2\Desktop\git_workspace\Hygieia\collectors\scm\github-graphql\src\main\java\com\capitalone\dashboard\model\GitHubParsed.java
+C:\Users\abijja2\Desktop\git_workspace\Hygieia\collectors\scm\github-graphql\src\main\java\com\capitalone\dashboard\collector\DefaultGitHubClient.java
+C:\Users\abijja2\Desktop\git_workspace\Hygieia\collectors\scm\github-graphql\src\main\java\com\capitalone\dashboard\repository\GitHubRepoRepository.java
+C:\Users\abijja2\Desktop\git_workspace\Hygieia\collectors\scm\github-graphql\src\main\java\com\capitalone\dashboard\model\GitHubRateLimit.java
+C:\Users\abijja2\Desktop\git_workspace\Hygieia\collectors\scm\github-graphql\src\main\java\com\capitalone\dashboard\collector\GitHubCollectorTask.java
+C:\Users\abijja2\Desktop\git_workspace\Hygieia\collectors\scm\github-graphql\src\main\java\com\capitalone\dashboard\collector\CommitPullMatcher.java
+C:\Users\abijja2\Desktop\git_workspace\Hygieia\collectors\scm\github-graphql\src\main\java\com\capitalone\dashboard\collector\GitHubSettings.java

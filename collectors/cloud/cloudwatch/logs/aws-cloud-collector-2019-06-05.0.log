@@ -1,0 +1,12 @@
+2019-06-05 16:36:14,894 INFO  c.c.d.collector.CollectorTask - job Count               1        0s
+2019-06-05 16:36:14,901 INFO  c.c.d.collector.CollectorTask - metric Count            0        0s
+2019-06-05 16:36:15,094 INFO  c.c.d.collector.CollectorTask - job Count               1        0s
+2019-06-05 16:36:15,095 INFO  c.c.d.collector.CollectorTask - metric Count            0        0s
+2019-06-05 16:36:15,105 INFO  c.c.d.collector.CollectorTask - job Count               1        0s
+2019-06-05 16:36:15,106 INFO  c.c.d.collector.CollectorTask - metric Count            1        0s
+2019-06-05 17:21:56,187 INFO  c.c.d.collector.CollectorTask - job Count               1        0s
+2019-06-05 17:21:56,196 INFO  c.c.d.collector.CollectorTask - metric Count            0        0s
+2019-06-05 17:21:56,429 INFO  c.c.d.collector.CollectorTask - job Count               1        0s
+2019-06-05 17:21:56,430 INFO  c.c.d.collector.CollectorTask - metric Count            0        0s
+2019-06-05 17:21:56,441 INFO  c.c.d.collector.CollectorTask - job Count               1        0s
+2019-06-05 17:21:56,441 INFO  c.c.d.collector.CollectorTask - metric Count            1        0s

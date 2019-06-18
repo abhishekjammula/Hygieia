@@ -1,0 +1,2 @@
+com\capitalone\dashboard\cloudwatch\collector\AwsCloudwatchLogAnalyzerTest.class
+com\capitalone\dashboard\cloudwatch\collector\AwsCloudwatchLogAnalyzerTaskTest.class

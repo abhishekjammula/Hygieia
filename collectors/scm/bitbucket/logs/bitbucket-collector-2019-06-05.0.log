@@ -1,0 +1,4 @@
+2019-06-05 16:39:24,231 INFO  c.c.d.collector.PullRequestCollector - Executing [https://company.com/rest/api/1.0/projects/myproject/repos/myrepository/pull-requests?at=refs%2Fheads%2Fmaster&state=OPEN&limit=0
+2019-06-05 16:39:24,672 INFO  c.c.d.collector.PullRequestCollector - Executing [https://company.com/rest/api/1.0/projects/myproject/repos/myrepository/pull-requests?at=refs%2Fheads%2Fmaster&state=OPEN&limit=0
+2019-06-05 17:25:09,757 INFO  c.c.d.collector.PullRequestCollector - Executing [https://company.com/rest/api/1.0/projects/myproject/repos/myrepository/pull-requests?at=refs%2Fheads%2Fmaster&state=OPEN&limit=0
+2019-06-05 17:25:10,165 INFO  c.c.d.collector.PullRequestCollector - Executing [https://company.com/rest/api/1.0/projects/myproject/repos/myrepository/pull-requests?at=refs%2Fheads%2Fmaster&state=OPEN&limit=0

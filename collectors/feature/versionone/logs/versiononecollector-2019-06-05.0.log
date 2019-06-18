@@ -1,0 +1,10 @@
+2019-06-05 16:38:10,836 INFO  c.c.dashboard.client.BaseClientTest - Beginning tests for com.capitalone.dashboard.collector.BaseClientTest
+2019-06-05 16:38:10,931 INFO  VersionOneDataFactoryImplTest - Beginning tests for com.capitalone.dashboard.datafactory.versionone.VersionOneDataFactoryImpl
+2019-06-05 16:38:11,003 WARN  VersionOneDataFactoryImplTest - Switching to generic V1 data factory connnection (with no auth). This should eventually be resolved by mocking a V1 response model in testing
+2019-06-05 16:38:11,061 INFO  DateUtilTest - Beginning tests for com.capitalone.dashboard.collector.DateUtilTest
+2019-06-05 16:38:11,131 INFO  DateUtilTest - Beginning tests for com.capitalone.dashboard.collector.DateUtilTest
+2019-06-05 17:23:49,241 INFO  c.c.dashboard.client.BaseClientTest - Beginning tests for com.capitalone.dashboard.collector.BaseClientTest
+2019-06-05 17:23:49,344 INFO  VersionOneDataFactoryImplTest - Beginning tests for com.capitalone.dashboard.datafactory.versionone.VersionOneDataFactoryImpl
+2019-06-05 17:23:49,434 WARN  VersionOneDataFactoryImplTest - Switching to generic V1 data factory connnection (with no auth). This should eventually be resolved by mocking a V1 response model in testing
+2019-06-05 17:23:49,496 INFO  DateUtilTest - Beginning tests for com.capitalone.dashboard.collector.DateUtilTest
+2019-06-05 17:23:49,570 INFO  DateUtilTest - Beginning tests for com.capitalone.dashboard.collector.DateUtilTest

@@ -1,0 +1,10 @@
+com\capitalone\dashboard\cloudwatch\model\AwsLogCollectorItem.class
+com\capitalone\dashboard\cloudwatch\collector\AwsCloudwatchLogAnalyzer.class
+com\capitalone\dashboard\repository\AwsCloudwatchLogAnalyzerRepository.class
+com\capitalone\dashboard\repository\AwsLogCollectorItemRepository.class
+com\capitalone\dashboard\cloudwatch\collector\AwsCloudwatchLogAnalyzerTask.class
+com\capitalone\dashboard\cloudwatch\model\CloudWatchJob.class
+com\capitalone\dashboard\Application.class
+com\capitalone\dashboard\cloudwatch\model\Series.class
+com\capitalone\dashboard\cloudwatch\collector\AwsCloudWatchClientFactory.class
+com\capitalone\dashboard\cloudwatch\collector\AwsCloudwatchLogAnalyzerSettings.class

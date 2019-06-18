@@ -1,0 +1,16 @@
+C:\Users\abijja2\Desktop\git_workspace\Hygieia\collectors\scm\bitbucket\src\main\java\com\capitalone\dashboard\model\GitRepo.java
+C:\Users\abijja2\Desktop\git_workspace\Hygieia\collectors\scm\bitbucket\src\main\java\com\capitalone\dashboard\collector\PageMetadata.java
+C:\Users\abijja2\Desktop\git_workspace\Hygieia\collectors\scm\bitbucket\src\main\java\com\capitalone\dashboard\bitbucketapi\BitbucketApiUrlBuilder.java
+C:\Users\abijja2\Desktop\git_workspace\Hygieia\collectors\scm\bitbucket\src\main\java\com\capitalone\dashboard\collector\RestOperationsSupplier.java
+C:\Users\abijja2\Desktop\git_workspace\Hygieia\collectors\scm\bitbucket\src\main\java\com\capitalone\dashboard\collector\DefaultBitbucketServerClient.java
+C:\Users\abijja2\Desktop\git_workspace\Hygieia\collectors\scm\bitbucket\src\main\java\com\capitalone\dashboard\collector\PullRequestCollector.java
+C:\Users\abijja2\Desktop\git_workspace\Hygieia\collectors\scm\bitbucket\src\main\java\com\capitalone\dashboard\collector\SCMHttpRestClient.java
+C:\Users\abijja2\Desktop\git_workspace\Hygieia\collectors\scm\bitbucket\src\main\java\com\capitalone\dashboard\repository\GitRepoRepository.java
+C:\Users\abijja2\Desktop\git_workspace\Hygieia\collectors\scm\bitbucket\src\main\java\com\capitalone\dashboard\config\SpringConfig.java
+C:\Users\abijja2\Desktop\git_workspace\Hygieia\collectors\scm\bitbucket\src\main\java\com\capitalone\dashboard\collector\DefaultBitbucketCloudClient.java
+C:\Users\abijja2\Desktop\git_workspace\Hygieia\collectors\scm\bitbucket\src\main\java\com\capitalone\dashboard\collector\JSONParserUtils.java
+C:\Users\abijja2\Desktop\git_workspace\Hygieia\collectors\scm\bitbucket\src\main\java\com\capitalone\dashboard\bitbucketapi\BitbucketUrlParser.java
+C:\Users\abijja2\Desktop\git_workspace\Hygieia\collectors\scm\bitbucket\src\main\java\com\capitalone\dashboard\collector\GitCollectorTask.java
+C:\Users\abijja2\Desktop\git_workspace\Hygieia\collectors\scm\bitbucket\src\main\java\com\capitalone\dashboard\collector\GitSettings.java
+C:\Users\abijja2\Desktop\git_workspace\Hygieia\collectors\scm\bitbucket\src\main\java\com\capitalone\dashboard\collector\GitClient.java
+C:\Users\abijja2\Desktop\git_workspace\Hygieia\collectors\scm\bitbucket\src\main\java\com\capitalone\dashboard\Application.java

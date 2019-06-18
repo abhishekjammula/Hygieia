@@ -1,0 +1,10 @@
+C:\Users\abijja2\Desktop\git_workspace\Hygieia\collectors\cloud\cloudwatch\src\main\java\com\capitalone\dashboard\cloudwatch\model\AwsLogCollectorItem.java
+C:\Users\abijja2\Desktop\git_workspace\Hygieia\collectors\cloud\cloudwatch\src\main\java\com\capitalone\dashboard\cloudwatch\model\CloudWatchJob.java
+C:\Users\abijja2\Desktop\git_workspace\Hygieia\collectors\cloud\cloudwatch\src\main\java\com\capitalone\dashboard\repository\AwsCloudwatchLogAnalyzerRepository.java
+C:\Users\abijja2\Desktop\git_workspace\Hygieia\collectors\cloud\cloudwatch\src\main\java\com\capitalone\dashboard\cloudwatch\model\Series.java
+C:\Users\abijja2\Desktop\git_workspace\Hygieia\collectors\cloud\cloudwatch\src\main\java\com\capitalone\dashboard\repository\AwsLogCollectorItemRepository.java
+C:\Users\abijja2\Desktop\git_workspace\Hygieia\collectors\cloud\cloudwatch\src\main\java\com\capitalone\dashboard\Application.java
+C:\Users\abijja2\Desktop\git_workspace\Hygieia\collectors\cloud\cloudwatch\src\main\java\com\capitalone\dashboard\cloudwatch\collector\AwsCloudwatchLogAnalyzerTask.java
+C:\Users\abijja2\Desktop\git_workspace\Hygieia\collectors\cloud\cloudwatch\src\main\java\com\capitalone\dashboard\cloudwatch\collector\AwsCloudwatchLogAnalyzerSettings.java
+C:\Users\abijja2\Desktop\git_workspace\Hygieia\collectors\cloud\cloudwatch\src\main\java\com\capitalone\dashboard\cloudwatch\collector\AwsCloudwatchLogAnalyzer.java
+C:\Users\abijja2\Desktop\git_workspace\Hygieia\collectors\cloud\cloudwatch\src\main\java\com\capitalone\dashboard\cloudwatch\collector\AwsCloudWatchClientFactory.java

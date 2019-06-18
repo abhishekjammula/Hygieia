@@ -1,0 +1,19 @@
+Manifest-Version: 1.0
+Built-By: abijja2
+Created-By: Apache Maven
+Build-Jdk: 1.8.0_201
+Extension-Name: hygieia-publisher
+Specification-Title: A Build status publisher that notifies Hygieia
+Implementation-Title: hygieia-publisher
+Implementation-Version: 2.2.0-SNAPSHOT
+Group-Id: org.jenkins-ci.plugins
+Short-Name: hygieia-publisher
+Long-Name: Hygieia Publisher Plugin
+Url: https://github.com/Hygieia/Hygieia
+Plugin-Version: 2.2.0-SNAPSHOT (private-8d95f7b3-abijja2)
+Hudson-Version: 1.645
+Jenkins-Version: 1.645
+Plugin-Dependencies: workflow-job:1.11,subversion:2.6,git:2.5.0
+Plugin-Developers: Tapabrata "Topo" Pal:tabladrum:tapabrata.pal@capita
+ lone.com
+
