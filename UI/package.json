@@ -95,7 +95,7 @@
     "jquery-ui": "~1.12.1",
     "jquery-ui-bundle": "^1.11.4",
     "jquery-ui-dist": "^1.12.1",
-    "json-logic-js": "^1.2.2",
+    "json-logic-js": "^2.0.0",
     "jstz": "~2.0.0",
     "lodash": "~4.17.11",
     "modernizr": "^3.7.1",
