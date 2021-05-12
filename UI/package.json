@@ -87,7 +87,7 @@
     "angular-validation-match": "~1.5.2",
     "bootstrap": "~3.4.1",
     "bootstrap-sweetalert": "~0.4.2",
-    "chart.js": "~2.3.0",
+    "chart.js": "~2.9.4",
     "chartist": "~0.9.5",
     "components-font-awesome": "~4.2.0",
     "dexie": "~1.2.0",
